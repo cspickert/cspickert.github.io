@@ -9,4 +9,4 @@ data_sources:
     items_root: /
     layouts_root: /
 
-base_url: http://cameronspickert.com
+base_url: http://cspicker.github.com
