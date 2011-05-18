@@ -1,0 +1,24 @@
+GIT
+  remote: git://github.com/arnau/nanoc.git
+  revision: b41842e0a76546ec30c7e4218c5dbaa0c149b2bc
+  ref: b41842e
+  specs:
+    nanoc3 (3.2.0a3)
+      cri (>= 1.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cri (1.0.1)
+    haml (3.1.1)
+    rake (0.8.7)
+    rdiscount (1.6.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  nanoc3!
+  rake
+  rdiscount
