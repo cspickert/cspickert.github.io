@@ -159,7 +159,13 @@ time {
   margin-left: 0; }
   #posts ol li {
     list-style-type: none;
-    margin-top: 8px; }
+    margin-top: 8px;
+    position: relative; }
+    #posts ol li time {
+      max-width: 5em; }
+    #posts ol li a {
+      position: absolute;
+      left: 6.5em; }
   #posts ol li:first-child {
     margin-top: 0; }
 
