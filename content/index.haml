@@ -5,7 +5,6 @@ kind: index
 ---
 
 %section{:id => "about"}
-  %h2 About Me
   :markdown
     I'm an independent software developer living and working in Brooklyn, NY.
 
@@ -16,5 +15,4 @@ kind: index
       %li
         %time{:datetime => post[:timestamp].to_s, :pubdate => true}<
           = post[:timestamp].strftime("%e %B %Y")
-        »
         %a{:href => rel_url_for(post)}= title_of(post)
