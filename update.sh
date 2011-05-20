@@ -1,5 +1,6 @@
 #!/bin/sh
 
+rake clean
 nanoc co
 git checkout master || exit 1
 cp -R output/* .
