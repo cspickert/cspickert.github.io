@@ -148,9 +148,8 @@ time {
   margin: 20px auto;
   font-size: 1.1em; }
 
-#site > header h1, #site > header nav, #site > header ul, #site > header li {
-  margin: 0;
-  display: inline; }
+#site > header h1 {
+  margin: 0.5em 0; }
 #site > header h1 {
   font-size: 200%;
   text-transform: lowercase; }
@@ -160,12 +159,15 @@ time {
   #posts ol li {
     list-style-type: none;
     margin-top: 8px;
-    position: relative; }
+    position: relative;
+    clear: both; }
     #posts ol li time {
-      max-width: 5em; }
-    #posts ol li a {
-      position: absolute;
-      left: 6.5em; }
+      display: block;
+      max-width: 6em;
+      float: left; }
+    #posts ol li div.link {
+      display: block;
+      margin-left: 6.5em; }
   #posts ol li:first-child {
     margin-top: 0; }
 
