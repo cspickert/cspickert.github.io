@@ -27,9 +27,6 @@ time {
 #site > header {
 	h1 {
 		margin: 0.5em 0;
-	}
-	
-	h1 {
 		font-size: 200%;
 		text-transform: lowercase;
 	}
@@ -41,24 +38,17 @@ time {
 	
 		li {
 			list-style-type: none;
-			margin-top: 8px;
+			margin: 0.6em 0 0;
 			position: relative;
 			clear: both;
 			
 			time {
-				display: block;
-				max-width: 6em;
 				float: left;
 			}
 			
 			div.link {
-				display: block;
-				margin-left: 6.5em;
+				margin-left: 6.6em;
 			}
-		}
-	
-		li:first-child {
-			margin-top: 0;
 		}
 	}
 }
