@@ -149,8 +149,7 @@ time {
   font-size: 1.1em; }
 
 #site > header h1 {
-  margin: 0.5em 0; }
-#site > header h1 {
+  margin: 0.5em 0;
   font-size: 200%;
   text-transform: lowercase; }
 
@@ -158,18 +157,13 @@ time {
   margin-left: 0; }
   #posts ol li {
     list-style-type: none;
-    margin-top: 8px;
+    margin: 0.6em 0 0;
     position: relative;
     clear: both; }
     #posts ol li time {
-      display: block;
-      max-width: 6em;
       float: left; }
     #posts ol li div.link {
-      display: block;
-      margin-left: 6.5em; }
-  #posts ol li:first-child {
-    margin-top: 0; }
+      margin-left: 6.6em; }
 
 article.post > header div.published {
   margin-bottom: 1em; }
