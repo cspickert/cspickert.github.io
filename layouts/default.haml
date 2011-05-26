@@ -1,0 +1,17 @@
+!!!5
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:name => "generator", :content => "nanoc 3.1.7"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/media/css/style.css", :media => "screen"}
+    %title= "Cameron Spickert - #{item[:title] or 'Home'}"
+  %body
+    %div{:id => "site"}
+      %header
+        :markdown
+          # [Cameron Spickert](/)
+      %div{:id => "content"}
+        = content
+      %footer
+        :markdown
+          © 2011 [Cameron Spickert](/).

@@ -1,0 +1,11 @@
+%article.post
+  %header
+    %h1= item.title
+    - date = item[:timestamp]
+    %div.published
+      Published on
+      %time{:datetime => date.to_s, :pubdate => true}<
+        = date.strftime("%A, %b %e, %Y")
+  %section.content
+    = content
+  %footer
