@@ -1,11 +1,11 @@
 %article.post
   %header
-    %h1= item.title
+    %h2
+      %a{:href => item.rel_url}= item.title
     - date = item[:timestamp]
-    %div.published
-      Published on
-      %time{:datetime => date.to_s, :pubdate => true}<
-        = date.strftime("%A, %b %e, %Y")
+    = "Posted on "
+    %time{:datetime => date.to_s, :pubdate => true}<
+      = date.strftime("%A, %b %e, %Y")
   %section.content
     = content
   %footer

@@ -7,11 +7,21 @@
     %title= "Cameron Spickert - #{item[:title] or 'Home'}"
   %body
     %div{:id => "site"}
-      %header
-        :markdown
-          # [Cameron Spickert](/)
+      %div{:id => "sidebar"}
+        %header
+          :markdown
+            # [Cameron Spickert](/)
+        %section{:id => "about"}
+          :markdown
+            **I'm an independent software developer living and working in Brooklyn, NY.**
+        %footer
+          :markdown
+             I built this site using [nanoc][], [haml][], [sass][] and [markdown](http://daringfireball.net/projects/markdown/).
+             
+             © 2011 Cameron Spickert.
+            
+            [nanoc]: http://nanoc.stoneship.org
+            [haml]: http://haml-lang.com
+            [sass]: http://sass-lang.com
       %div{:id => "content"}
         = content
-      %footer
-        :markdown
-          © 2011 Cameron Spickert. Built with [nanoc](http://nanoc.stoneship.org), [haml](http://haml-lang.com), [sass](http://sass-lang.com) and [markdown](http://daringfireball.net/projects/markdown/).

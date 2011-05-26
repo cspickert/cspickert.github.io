@@ -1,5 +1,6 @@
 include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
+include Nanoc3::Helpers::Rendering
 
 class Nanoc3::Item
   def title

@@ -4,16 +4,6 @@ id: index
 kind: index
 ---
 
-%section{:id => "about"}
-  :markdown
-    I'm an independent software developer living and working in Brooklyn, NY.
-
 %section{:id => "posts"}
-  %h2 Blog Posts
-  %ol
-    - sorted_articles.each do |post|
-      %li
-        %time{:datetime => post[:timestamp].to_s, :pubdate => true}<
-          = post[:timestamp].strftime("%e %b %Y")
-        %div.link
-          %a{:href => post.rel_url}= post.title
+  - sorted_articles.each do |post|
+    = render 'post', :item => post, :content => post.compiled_content
