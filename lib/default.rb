@@ -1,21 +1,20 @@
-require 'erb'
-
 include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
 include Nanoc3::Helpers::Rendering
-include ERB::Util
 
-def title_of(item)
-  return item[:title] if item[:title]
-  
-  content = item.compiled_content(:snapshot => :pre)
-  return $1 if content =~ /<h1[^>]*>(.*)<\/h1>/i
-  
-  return item.identifier.split("/").last
-end
+class Nanoc3::Item
+  def title
+    return self[:title] if self[:title]
 
-def rel_url_for(item)
-  url_for(item).gsub(%r{^#{Regexp.escape(config[:base_url])}}, "")
+    content = compiled_content(:snapshot => :pre)
+    return $1 if content =~ /<h1[^>]*>(.*)<\/h1>/i
+
+    return identifier.split('/').last
+  end
+  
+  def rel_url
+    url_for(self).gsub(%r{^#{Regexp.escape(site.config[:base_url])}}, "")
+  end
 end
 
 class Fixnum

@@ -1,7 +1,6 @@
 GIT
-  remote: git://github.com/arnau/nanoc.git
-  revision: b41842e0a76546ec30c7e4218c5dbaa0c149b2bc
-  ref: b41842e
+  remote: git://github.com/ddfreyne/nanoc.git
+  revision: 350b1ad77d4b3ba56b747783ee261cdabf54daae
   specs:
     nanoc3 (3.2.0a3)
       cri (>= 1.0.0)
@@ -9,16 +8,34 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+    activesupport (3.0.7)
+    chunky_png (1.2.0)
+    compass (0.11.1)
+      chunky_png (~> 1.1)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-960-plugin (0.10.3)
+      compass (>= 0.10.0)
     cri (1.0.1)
+    fssm (0.2.7)
     haml (3.1.1)
-    rake (0.8.7)
+    i18n (0.6.0)
+    json (1.5.1)
+    rake (0.9.0)
     rdiscount (1.6.8)
+    sass (3.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
+  compass
+  compass-960-plugin
   haml
+  i18n
+  json
   nanoc3!
   rake
   rdiscount
+  sass

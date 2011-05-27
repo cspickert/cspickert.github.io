@@ -3,64 +3,65 @@
  * May 2011
  */
 
-@import 'reset';
+@import 'blueprint';
 
-a {
-	text-decoration: none;
-	color: #0033ff;
-}
-
-a:hover {
-	color: #0000cc;
-}
-
-time {
-	color: #777;
+body {
+	margin: 0;
+	padding: 0;
+	
+	border-top: solid 2px #23c;
+	
+	font: normal 13px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #222;
+	
+	a {
+		text-decoration: none;
+		color: #23c;
+	}
+	
+	li {
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+		line-height: 1.1em;
+	}
 }
 
 #site {
-	width: 640px;
-	margin: 20px auto;
-	font-size: 1.1em;
+	@include container;
 }
 
-#site > header {
-	h1 {
-		margin: 0.5em 0;
-		font-size: 200%;
-		text-transform: lowercase;
+#sidebar {
+	position: fixed;
+	@include column(5);
+	
+	footer {
+		color: #888;
 	}
 }
 
-#posts {
-	ol {
-		margin-left: 0;
+#content {
+	@include column(16, true);
+	@include push(6);
+	@include prepend(1);
+	@include append(4);
+	padding-top: 1.4em;
+	border-left: dotted 1px darkgray;
+}
+
+article.post {
+	margin-bottom: 3em;
 	
-		li {
-			list-style-type: none;
-			margin: 0.6em 0 0;
-			position: relative;
-			clear: both;
-			
-			time {
-				float: left;
-			}
-			
-			div.link {
-				margin-left: 6.6em;
-			}
+	header {
+		h2 {
+			margin-bottom: 0.4em;
+		}
+		time {
+			color: #666;
 		}
 	}
-}
-
-article.post > header {
-	div.published {
-		margin-bottom: 1em;
-	}
-}
-
-#site > footer {
-	border-top: solid 2px #ddd;
-	margin-top: 2em;
-	padding: 10px 0;
 }

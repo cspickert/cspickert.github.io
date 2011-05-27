@@ -2,11 +2,12 @@ text_extensions: [ 'css', 'erb', 'haml', 'htm', 'html', 'js', 'less', 'markdown'
 output_dir: output
 index_filenames: [ 'index.html' ]
 enable_output_diff: false
-
 data_sources:
   -
     type: filesystem_unified
     items_root: /
     layouts_root: /
-
+title: Cameron Spickert's Blog
+author_name: Cameron Spickert
+author_uri: http://blog.cameronspickert.com
 base_url: http://cspicker.github.com
