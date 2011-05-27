@@ -6,8 +6,10 @@ compile 'media/sass/_*/' do
   nil
 end
 
+require 'compass'
 compile 'media/sass/*/' do
-  filter :sass, :syntax => :scss
+  filter :sass, :syntax => :scss, 
+    :load_paths => Compass.sass_engine_options[:load_paths]
 end
 
 compile 'media/*/' do

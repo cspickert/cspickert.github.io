@@ -47,14 +47,14 @@ In order to find the maximum value in this array manually, you might be inclined
 
     NSNumber *max = nil;
     for (NSNumber *number in numbers) {
-        if (!max || [number compare:max] == NSOrderedDescending) {
-            max = number;
-        }
+      if (!max || [number compare:max] == NSOrderedDescending) {
+        max = number;
+      }
     }
 
 Collection operators give us a much more concise way to do this:
 
-    NSNumber *max = [numbers valueForKeyPath:@"@max.self"];
+  NSNumber *max = [numbers valueForKeyPath:@"@max.self"];
 
 We can also directly access properties of this maximum-valued object. Think of it this way: the '@max' in the key path string represents the max object in the array. If we wanted to get the integer value of this object directly, this would work, too:
 

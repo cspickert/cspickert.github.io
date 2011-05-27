@@ -3,10 +3,15 @@
  * May 2011
  */
 
-@import 'reset';
+@import 'blueprint';
 
 body {
+	font-family: sans-serif, Helvetica;
 	font-size: 0.9em;
+	
+	p {
+		margin-bottom: 1em;
+	}
 }
 
 a {
@@ -36,33 +41,33 @@ pre {
 }
 
 #site {
-	position: relative;
-	width: 800px;
-	margin: 0 auto;
+	@include container;
+	margin: 2em auto 0;
 }
 
 #sidebar {
-	position: absolute;
-	top: 2em;
-	left: 0;
-	padding-right: 10px;
-	width: 150px;
+	display: table;
+	height: 100%;
+	@include column(4);
 	text-align: right;
 	
 	header {
 		h1 {
-			margin: 0 0 1em;
+			margin: 0 0 0.5em;
 			font-size: 2em;
 			text-transform: none;
 		}
 	}
+	
+	#sidebar-content {
+		display: table-cell;
+		vertical-align: center;
+	}
 }
 
 #content {
-	position: absolute;
-	margin-left: 180px;
-	width: 550px;
-	top: 8.9em;
+	@include column(18, true);
+	@include prepend(0.5);
 }
 
 article.post {
@@ -76,10 +81,4 @@ article.post {
 			margin: 0 0 0.5em;
 		}
 	}
-}
-
-#content > footer {
-	width: 100%;
-	margin-top: 2em;
-	padding: 10px 0;
 }
