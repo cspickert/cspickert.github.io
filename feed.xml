@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://cspicker.github.com/</id>
+  <title>Cameron Spickert's Blog</title>
+  <updated>2011-05-27T04:00:00Z</updated>
+  <link rel="alternate" href="http://cspicker.github.com/"/>
+  <link rel="self" href="http://cspicker.github.com/feed.xml"/>
+  <author>
+    <name>Cameron Spickert</name>
+    <uri>http://blog.cameronspickert.com</uri>
+  </author>
+  <entry>
+    <id>tag:cspicker.github.com,2011-05-27:/2011/05/27/internet-disaster-preparedness/</id>
+    <title type="html">Internet Disaster Preparedness</title>
+    <published>2011-05-27T04:00:00Z</published>
+    <updated>2011-05-27T04:00:00Z</updated>
+    <link rel="alternate" href="http://cspicker.github.com/2011/05/27/internet-disaster-preparedness/"/>
+    <content type="html">&lt;p&gt;Most people don't worry about keeping themselves safe online. However, like backing up your files, it's something that many only realize they need when it's too late.&lt;/p&gt;
+
+&lt;p&gt;Yesterday, a friend of mine met with an unpleasant surprise when she logged into her iTunes account: someone had gained access to her account, and had made a $100 purchase using her credit card. While this charge can and will be quickly revoked, she faces a more serious problem. Like most people, she uses the same password for many other accounts online, meaning that her other accounts could also be compromised.&lt;/p&gt;
+
+&lt;p&gt;First, let's look at a couple of the possible ways she could have gotten hacked:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;She is a victim of &lt;a href="http://en.wikipedia.org/wiki/Session_hijacking"&gt;session hijacking&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt; Many sites use &lt;a href="http://en.wikipedia.org/wiki/HTTP_Secure"&gt;HTTPS&lt;/a&gt; to protect their users' data from being intercepted by a third party. However, many sites still use the faster, but less secure HTTP protocol. Using tools like the widely publicized &lt;a href="http://codebutler.com/firesheep"&gt;Firesheep&lt;/a&gt;, attackers can take control of a user's login session. While most sites wouldn't allow them to change the account password without access to a registered email account, they could still access sensitive information and generally wreak havoc. As more sites adopt the use of HTTPS by default, this will become less of a problem, but a universal solution has not yet been implemented.&lt;/p&gt;
+
+&lt;p&gt; In order to protect yourself from this kind of attack, you should do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Think twice before accessing an HTTP-only service on a public wi-fi network. You can tell if you're using HTTP or HTTPS by looking at the beginning of the URL in your browser's address bar (&lt;code&gt;http://...&lt;/code&gt; vs. &lt;code&gt;https://...&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Enable HTTPS as the default protocol on sites that offer the option. For example, in Facebook, go to your account settings and enable "Secure Browsing (https)" under "Account Security".&lt;/li&gt;
+&lt;li&gt;Use a secure proxy service like &lt;a href="http://www.the-cloak.com/anonymous-surfing-faq.html"&gt;the cloak&lt;/a&gt; or similar, or (for more advanced users), &lt;a href="http://en.wikipedia.org/wiki/Tunneling_protocol#Secure_Shell_tunneling"&gt;tunnel your traffic to a trusted server via SSH&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt; As with all of these attacks, if you become a victim, you should change your password immediately.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The attacker knows her password, either by guessing or by exploiting a vulnerability in another site.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt; This is by far the most dangerous situation. It's only likely to happen if you use the same password for many sites, but this is, unfortunately, the case for many people. Let me put this as simply as I can: &lt;strong&gt;you should not rely on sites to keep your password safe&lt;/strong&gt;. Recently, users registered on the Gawker network &lt;a href="http://www.slate.com/id/2277768/"&gt;learned this the hard way&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt; The best way to protect yourself against site vulnerabilities is to use a different password for every account you register. It's not as hard as you might expect, and there are a lot of different utilities out there that make it very easy to do. I use a combination of &lt;a href="http://code.google.com/p/oplop/wiki/HowItWorks"&gt;oplop&lt;/a&gt; and &lt;a href="http://agilebits.com/onepassword"&gt;1Password&lt;/a&gt;. Both of these utilities rely on the idea of a single "master" password that you memorize, but instead of exposing this master password to the outside world by using it to register accounts, you use it to generate and protect your set of unique, account-specific passwords, none of which are important to memorize. It's an extremely secure system, and very convenient once you get used to it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The attacker found and exploited a security vulnerability in iTunes that allowed him/her to gain access to the account.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt; This is similar to the situation above, and the only way to protect yourself is to change your account password. If the service you're using is unreliable, you should strongly consider removing all personal information from your account and using something else.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;In all situations, the best thing you can do is change your password(s), and be eternally skeptical any time a site guarantees the safety of your information. With our increased reliability on internet services to accomplish vital tasks like online banking, it is &lt;em&gt;always&lt;/em&gt; a good idea to be overly cautious.&lt;/p&gt;
+
+&lt;p&gt;Also, I could write an entirely different post about this, but continuing in the spirit of being prepared for disasters: &lt;strong&gt;go back up your important files NOW&lt;/strong&gt;. With free services like &lt;a href="https://www.dropbox.com/"&gt;Dropbox&lt;/a&gt; readily available, you have no more excuses not to.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:cspicker.github.com,2011-02-04:/2011/02/04/music-is-life-is-music/</id>
+    <title type="html">Music is Life is Music</title>
+    <published>2011-02-04T05:00:00Z</published>
+    <updated>2011-02-04T05:00:00Z</updated>
+    <link rel="alternate" href="http://cspicker.github.com/2011/02/04/music-is-life-is-music/"/>
+    <content type="html">&lt;p&gt;I got the title from some random ad in &lt;a href="http://foursquare.com/venue/69964"&gt;my subway station&lt;/a&gt;, but it&#8217;s kind of true. Music has been an integral part of my life from piano lessons&#8212;for about 8 years of my life&#8212;to singing in high school and college, to playing guitar and listening to music on my iPhone and computer just about 24/7. Programming, traveling, relaxing: music plays a part in nearly everything I do.&lt;/p&gt;
+
+
+&lt;p&gt;&amp;#13;&lt;/p&gt;
+
+&lt;p&gt;In all the ways I&#8217;ve interacted with music, one mode has affected me more than all the others: being at concerts. Back in middle school, I saw Tom Petty at Red Rocks, and I&#8217;ve been absolutely addicted ever since. Unfortunately, rather than satisfying that addiction, I&#8217;ve spent most of my time having withdrawals and flashbacks to the last great show. It&#8217;s not that the Denver area hasn&#8217;t historically attracted some big names&#8212;the Beatles even made a stop at Red Rocks on their 1964 world tour&#8212;and I certainly had a decent selection while I was in Boston. It&#8217;s just been all too easy for life and school to get in the way.&lt;/p&gt;
+
+
+&lt;p&gt;&amp;#13;&lt;/p&gt;
+
+&lt;p&gt;One of the great things about living in New York is that almost every artist I currently listen to has performed in the city during the time I&#8217;ve lived here (since June 2010). Add decent public transportation to an abundance of great concerts, and you get a recipe for awesome. Or spending a lot of money on concert tickets. Or both.&lt;/p&gt;
+
+
+&lt;p&gt;&amp;#13;&lt;/p&gt;
+
+&lt;p&gt;It&#8217;s true, concerts are loud (sometimes eardrum-splittingly so), crowded, messy and expensive. But there&#8217;s really nothing quite like hearing your favorite songs being played by their creators &lt;em&gt;for you&lt;/em&gt;, and for me, there&#8217;s no expense too great to have that. This is one addiction I don&#8217;t plan on giving up for the rest of my life.&lt;/p&gt;
+
+
+&lt;p&gt;&amp;#13;&lt;/p&gt;
+
+&lt;p&gt;In case anyone is curious/cares, here is basically every major concert I&#8217;ve been to:&lt;/p&gt;
+
+
+&lt;p&gt;&amp;#13;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Tom Petty and the Heartbreakers&lt;/strong&gt; (Red Rocks Amphitheater - Morrison, CO)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Weird Al Yankovic&lt;/strong&gt; (Pepsi Center - Denver, CO)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Interpol&lt;/strong&gt; (Fillmore Auditorium - Denver, CO)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Death Cab for Cutie&lt;/strong&gt; (Fillmore Auditorium - Denver, CO)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Foo Fighters&lt;/strong&gt; &amp;amp; &lt;strong&gt;Weezer&lt;/strong&gt; (Pepsi Center - Denver, CO)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Kid Sister&lt;/strong&gt;, &lt;strong&gt;The Cool Kids&lt;/strong&gt; &amp;amp; &lt;strong&gt;Kanye West&lt;/strong&gt; (American Museum of Natural History - New York, NY)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Third Eye Blind&lt;/strong&gt; (Harvard Yard - Cambridge, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;MIA&lt;/strong&gt; (?? - Worcester, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Black Kids&lt;/strong&gt; (?? - Boston, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Wu Tang Clan&lt;/strong&gt;&#160;(Harvard Yard - Cambridge, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Jason Mraz&lt;/strong&gt; (Orpheum Theatre - Boston, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Bob Dylan&lt;/strong&gt; (Wang Theatre - Boston, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Ratatat&lt;/strong&gt; (Harvard Yard - Cambridge, MA)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;The Flaming Lips&lt;/strong&gt; (Terminal 5 - New York, NY)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Robyn&lt;/strong&gt;&#160;(Radio City Music Hall - New York, NY)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Interpol&lt;/strong&gt;&#160;(2/17/11 - Radio City Music Hall - New York, NY)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Cold War Kids&lt;/strong&gt; (Radio City Music Hall - New York, NY)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Fleet Foxes&lt;/strong&gt; (United Palace Theatre - New York, NY)&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+</feed>
+
