@@ -3,6 +3,7 @@ timestamp: 2011-05-27
 kind: article
 title: "Internet Disaster Preparedness"
 tags: [ 'security', 'howto' ]
+location: "Starbucks on 2nd ave"
 ---
 
 Most people don't worry about keeping themselves safe online. However, like backing up your files, it's something that many only realize they need when it's too late.
