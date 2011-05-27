@@ -6,6 +6,8 @@
     = "Posted on "
     %time{:datetime => date.to_s, :pubdate => true}<
       = date.strftime("%A, %b %e, %Y")
+    - if item[:tags]
+      = " in #{tags_for(item)}"
   %section.content
     = content
   %footer
