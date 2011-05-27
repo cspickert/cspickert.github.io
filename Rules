@@ -22,6 +22,10 @@ compile 'articles/*/' do
   layout 'default'
 end
 
+compile 'feed/' do
+  filter :erb
+end
+
 compile '*' do
   filter :haml, :attr_wrapper => '"'
   layout 'default'
@@ -43,6 +47,10 @@ end
 
 route '/articles/*/' do
   item.identifier.gsub(%r{^/articles/}, "/") + "index.html"
+end
+
+route 'feed/' do
+  '/feed.xml'
 end
 
 route '*' do

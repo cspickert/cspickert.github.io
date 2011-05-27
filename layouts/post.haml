@@ -2,7 +2,7 @@
   %header
     %h2
       %a{:href => item.rel_url}= item.title
-    - date = item[:timestamp]
+    - date = item[:created_at]
     = "Posted on "
     %time{:datetime => date.to_s, :pubdate => true}<
       = date.strftime("%A, %b %e, %Y")

@@ -7,4 +7,7 @@ data_sources:
     type: filesystem_unified
     items_root: /
     layouts_root: /
+title: Cameron Spickert's Blog
+author_name: Cameron Spickert
+author_uri: http://blog.cameronspickert.com
 base_url: http://cspicker.github.com
