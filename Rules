@@ -8,11 +8,14 @@ end
 
 require 'compass'
 compile 'media/sass/*/' do
-  filter :sass, :syntax => :scss, 
-    :load_paths => Compass.sass_engine_options[:load_paths]
+  filter :sass, :syntax => :scss, :load_paths => Compass.sass_engine_options[:load_paths]
 end
 
 compile 'media/*/' do
+  nil
+end
+
+compile 'CNAME' do
   nil
 end
 
@@ -35,6 +38,10 @@ end
 
 route 'media/sass/_*/' do
   nil
+end
+
+route 'CNAME' do
+  '/CNAME'
 end
 
 route 'media/sass/*/' do
