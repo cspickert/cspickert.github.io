@@ -64,29 +64,37 @@ module Nanoc3::Extra::Deployers
       
       # Remove the existing output directory (Nanoc3::Tasks::Clean currently only
       # removes the items, not the directories)
+      puts "Removing output directory."
       FileUtils.rm_rf(@site.config[:output_dir])
       
       # Check out the source branch
+      puts "Checking out #{src_branch}."
       git.checkout(src_branch)
       
       # Compile the site from scratch
+      puts "Compiling site."
       @site.load_data
       @site.compiler.run
       
       # Check out the destination branch
+      puts "Checking out destination branch."
       git.checkout(dst_branch)
       
       # Copy output files recursively into the current directory
+      puts "Copying files."
       FileUtils.cp_r(@site.config[:output_dir].chomp('/') + '/.', '.')
       
       # Automatically add and commit changes
+      puts "Committing changes."
       git.add
       git.commit("updated #{Time.now.to_s}", :add_all => true)
       
       # Push changes to the destination repo/branch
+      puts "Pushing to #{dst_remote} #{dst_branch}"
       git.push(dst_remote, dst_branch)
       
       # Switch back to the source branch
+      puts "Checking out #{src_branch}"
       git.checkout(src_branch)
     end
     
