@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/ddfreyne/nanoc.git
-  revision: 350b1ad77d4b3ba56b747783ee261cdabf54daae
+  remote: git://github.com/cspicker/nanoc.git
+  revision: 389173845e92ca7454f74efe4a5f7f20804c9d06
   specs:
     nanoc3 (3.2.0a3)
       cri (>= 1.0.0)
@@ -14,10 +14,9 @@ GEM
       chunky_png (~> 1.1)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    compass-960-plugin (0.10.3)
-      compass (>= 0.10.0)
     cri (1.0.1)
     fssm (0.2.7)
+    git (1.2.5)
     haml (3.1.1)
     i18n (0.6.0)
     json (1.5.1)
@@ -31,7 +30,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   compass
-  compass-960-plugin
+  git
   haml
   i18n
   json

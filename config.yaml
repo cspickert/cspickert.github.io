@@ -10,4 +10,9 @@ data_sources:
 title: Cameron Spickert's Blog
 author_name: Cameron Spickert
 author_uri: http://blog.cameronspickert.com
-base_url: http://cspicker.github.com
+base_url: http://cameronspickert.com
+deploy:
+  default:
+    dst_remote: origin
+    dst_branch: master
+    src_branch: source
