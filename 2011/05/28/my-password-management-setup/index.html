@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="nanoc 3.1.7" name="generator" />
+    <link href="/feed.xml" rel="alternate" title="RSS" type="application/rss+xml" />
+    <link href="/media/css/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <title>Cameron Spickert - My Password Management Setup</title>
+  </head>
+  <body>
+    <div id="site">
+      <div id="sidebar">
+        <header>
+          <h1><a href="/">Cameron Spickert</a></h1>
+        </header>
+        <section id="about">
+          <p><strong>I'm an independent software developer living and working in Brooklyn, NY.</strong></p>
+          
+          <p>You can find me on <a href="http://facebook.com/cspickert">Facebook</a>, <a href="https://twitter.com/#!/cameronspickert">Twitter</a>, <a href="http://www.linkedin.com/in/cameronspickert">LinkedIn</a> and <a href="https://github.com/cspicker">GitHub</a>.</p>
+          
+          <p>I built this site using <a href="http://nanoc.stoneship.org">nanoc</a>, <a href="http://haml-lang.com">haml</a>, <a href="http://sass-lang.com">sass</a> and <a href="http://daringfireball.net/projects/markdown/">markdown</a>.</p>
+        </section>
+        <footer>
+          <p>© 2011 Cameron Spickert.</p>
+        </footer>
+      </div>
+      <div id="content">
+        <article class="post">
+          <header>
+            <h2>
+              <a href="/2011/05/28/my-password-management-setup/">My Password Management Setup</a>
+            </h2>
+            Posted on
+            <time datetime="2011-05-28" pubdate="pubdate">Saturday, May 28, 2011</time>
+          </header>
+          <section class="content">
+            <p>Since <a href="/2011/05/27/internet-disaster-preparedness/">my last post</a> on identity theft/worst case scenarios regarding user accounts on the web was a bit technical/unclear, I figured I'd follow up with a better answer to the question: "so what should I do about it?" Since weak passwords and site-specific attacks are the biggest threat, I think the best way for me to answer that question is to walk through my current account management scheme.</p>
+            
+            <p>My system runs on one simple rule: <strong>don't use the same password twice</strong>. When I register new accounts online, I use a different password every time. That way, if one site I use gets compromised, my other accounts won't be affected. Obviously, this would be impractical if I had to remember every single password I registered with, or even if I had to keep them all written down. So here are the supporting requirements of my system:</p>
+            
+            <ol>
+            <li><strong>Keep memorization to a minimum.</strong> I don't want to waste brain power memorizing hundreds of passwords.</li>
+            <li>I should be able to access my passwords <strong>quickly</strong>--only slightly slower than the same amount of time it would take to recall them from memory and type them out.</li>
+            <li>I should be able to access my passwords <strong>wherever I am</strong>.</li>
+            </ol>
+            
+            
+            <p>I'm basically looking for the convenience of using a single password everywhere, but with much better security. Fortunately, this is easily accomplished using a few tools and some initial setup time.</p>
+            
+            <ul>
+            <li><p><strong>Oplop</strong> (Web-based) - <a href="https://oplop.appspot.com/">https://oplop.appspot.com/</a></p>
+            
+            <p>  Oplop is actually <a href="http://code.google.com/p/oplop/wiki/HowItWorks">a specification</a> for generating passwords, but there is also a <a href="http://oplop.appspot.com">web-based implementation</a> you can actually use. You choose a master password and a "nickname," and it spits out a strong password. The beauty of Oplop is that given the same nickname and master password, it generates the same output every time. What this means is that you don't actually need to store anything at all; just pick a single master password and use an easily memorizable nickname for each of your accounts (like "amazon" for your Amazon account). That way, you only need to remember one master password, but you end up with separate passwords for each of your accounts online. You just need to use the generator each time you want to access your password (which, once you get used to it, is only a slight inconvenience that can be mitigated by using 1Password and a web browser plugin).</p></li>
+            <li><p><strong>1Password</strong> (Mac, Windows, iOS, Android) - <a href="http://agilebits.com/onepassword">http://agilebits.com/onepassword</a></p>
+            
+            <p>  You may be familiar with storing passwords for your various web user accounts in your browser (like when it asks if you want to "Save this password" for later). Rather than storing your information in the browser, you can store it in 1Password, which serves as a central repository for your sensitive information (in this way, it's similar to the Keychain feature of Mac OS X, but better). Everything you enter is protected by a master password and strong encryption. You can even store 1Password's database file (the ".agilekeychain" file) on a web-accessible file system like Dropbox and access it via an HTML interface. I use 1Password in addition to Oplop for a few reasons: to have an offline-accessible "database" of my passwords and other info; to be able to log in using a keystroke via the included browser plugins; and, to sync my information to Dropbox/my iPhone for mobile access.</p></li>
+            </ul>
+            
+            
+            <p>These two tools allow me to satisfy my three requirements above. Both of them allow me to avoid memorizing any passwords except the master. When I'm on my own computer, 1Password's browser plugins allow me to fill out login forms with a single keystroke. When I'm on someone else's computer, I can look up my password on my iPhone or use Oplop to retrieve it.</p>
+            
+            <p>This isn't necessarily the simplest system to set up--after all, it requires you to change all your current account passwords and your behavior. But I can guarantee that if you do both, you'll be protecting yourself better than most other internet users.</p>
+          </section>
+          <footer></footer>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

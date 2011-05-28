@@ -30,7 +30,8 @@ body {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 190px; }
+  width: 190px;
+  padding-left: 40px; }
   * html #sidebar {
     overflow-x: hidden; }
   #sidebar footer {
@@ -48,7 +49,7 @@ body {
   padding-left: 40px;
   padding-right: 160px;
   padding-top: 1.4em;
-  border-left: dotted 1px darkgray; }
+  border-left: dotted 1px #aaa; }
   * html #content {
     overflow-x: hidden; }
 
