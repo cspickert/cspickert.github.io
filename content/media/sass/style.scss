@@ -38,6 +38,7 @@ body {
 #sidebar {
 	position: fixed;
 	@include column(5);
+	@include prepend(1);
 	
 	footer {
 		color: #888;
@@ -50,7 +51,7 @@ body {
 	@include prepend(1);
 	@include append(4);
 	padding-top: 1.4em;
-	border-left: dotted 1px darkgray;
+	border-left: dotted 1px #aaa;
 }
 
 article.post {

@@ -90,11 +90,11 @@ module Nanoc3::Extra::Deployers
       git.commit("updated #{Time.now.to_s}", :add_all => true)
       
       # Push changes to the destination repo/branch
-      puts "Pushing to #{dst_remote} #{dst_branch}"
+      puts "Pushing to #{dst_remote} #{dst_branch}."
       git.push(dst_remote, dst_branch)
       
       # Switch back to the source branch
-      puts "Checking out #{src_branch}"
+      puts "Checking out #{src_branch}."
       git.checkout(src_branch)
     end
     
