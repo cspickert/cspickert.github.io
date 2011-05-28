@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://cspicker.github.com/</id>
+  <id>http://cameronspickert.com/</id>
   <title>Cameron Spickert's Blog</title>
   <updated>2011-05-27T04:00:00Z</updated>
-  <link rel="alternate" href="http://cspicker.github.com/"/>
-  <link rel="self" href="http://cspicker.github.com/feed.xml"/>
+  <link rel="alternate" href="http://cameronspickert.com/"/>
+  <link rel="self" href="http://cameronspickert.com/feed.xml"/>
   <author>
     <name>Cameron Spickert</name>
     <uri>http://blog.cameronspickert.com</uri>
   </author>
   <entry>
-    <id>tag:cspicker.github.com,2011-05-27:/2011/05/27/internet-disaster-preparedness/</id>
+    <id>tag:cameronspickert.com,2011-05-27:/2011/05/27/internet-disaster-preparedness/</id>
     <title type="html">Internet Disaster Preparedness</title>
     <published>2011-05-27T04:00:00Z</published>
     <updated>2011-05-27T04:00:00Z</updated>
-    <link rel="alternate" href="http://cspicker.github.com/2011/05/27/internet-disaster-preparedness/"/>
+    <link rel="alternate" href="http://cameronspickert.com/2011/05/27/internet-disaster-preparedness/"/>
     <content type="html">&lt;p&gt;Most people don't worry about keeping themselves safe online. However, like backing up your files, it's something that many only realize they need when it's too late.&lt;/p&gt;
 
 &lt;p&gt;Yesterday, a friend of mine met with an unpleasant surprise when she logged into her iTunes account: someone had gained access to her account, and had made a $100 purchase using her credit card. While this charge can and will be quickly revoked, she faces a more serious problem. Like most people, she uses the same password for many other accounts online, meaning that her other accounts could also be compromised.&lt;/p&gt;
@@ -53,11 +53,11 @@
 </content>
   </entry>
   <entry>
-    <id>tag:cspicker.github.com,2011-02-04:/2011/02/04/music-is-life-is-music/</id>
+    <id>tag:cameronspickert.com,2011-02-04:/2011/02/04/music-is-life-is-music/</id>
     <title type="html">Music is Life is Music</title>
     <published>2011-02-04T05:00:00Z</published>
     <updated>2011-02-04T05:00:00Z</updated>
-    <link rel="alternate" href="http://cspicker.github.com/2011/02/04/music-is-life-is-music/"/>
+    <link rel="alternate" href="http://cameronspickert.com/2011/02/04/music-is-life-is-music/"/>
     <content type="html">&lt;p&gt;I got the title from some random ad in &lt;a href="http://foursquare.com/venue/69964"&gt;my subway station&lt;/a&gt;, but it&#8217;s kind of true. Music has been an integral part of my life from piano lessons&#8212;for about 8 years of my life&#8212;to singing in high school and college, to playing guitar and listening to music on my iPhone and computer just about 24/7. Programming, traveling, relaxing: music plays a part in nearly everything I do.&lt;/p&gt;
 
 
