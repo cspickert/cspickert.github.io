@@ -59,3 +59,21 @@ article.post {
     margin-bottom: 0.4em; }
   article.post header time {
     color: #666; }
+  article.post .place-info {
+    width: 150px;
+    float: left;
+    margin-right: 1.3em;
+    margin-top: 4px;
+    margin-bottom: 4px; }
+    article.post .place-info .map, article.post .place-info .name, article.post .place-info .address {
+      display: block; }
+    article.post .place-info .map {
+      border-radius: 6px;
+      margin-bottom: 10px; }
+    article.post .place-info .name, article.post .place-info .address {
+      padding: 0 0.5em; }
+    article.post .place-info .name {
+      font-weight: bold; }
+    article.post .place-info .address {
+      font-size: 0.9em;
+      color: #555; }
