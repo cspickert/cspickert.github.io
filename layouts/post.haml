@@ -9,5 +9,10 @@
     - if item[:tags]
       = " in #{tags_for(item)}"
   %section.content
+    - if item.attributes.has_key?(:place)
+      %section.place-info
+        %img.map{:src => get_place_map_for(item)}
+        %span.name= item[:place][:name]
+        %span.address= item[:place][:address]
     = content
   %footer

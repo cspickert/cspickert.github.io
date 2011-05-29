@@ -65,4 +65,35 @@ article.post {
 			color: #666;
 		}
 	}
+	
+	.place-info {
+		width: 150px;
+		float: left;
+		margin-right: 1.3em;
+		
+		margin-top: 4px;
+		margin-bottom: 4px;
+		
+		.map, .name, .address {
+			display: block;
+		}
+		
+		.map {
+			border-radius: 6px;
+			margin-bottom: 10px;
+		}
+		
+		.name, .address {
+			padding: 0 0.5em;
+		}
+		
+		.name {
+			font-weight: bold;
+		}
+		
+		.address {
+			font-size: 0.9em;
+			color: #555;
+		}
+	}
 }

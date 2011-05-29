@@ -2,7 +2,6 @@
 created_at: 2011-05-27
 kind: article
 title: "On Internet Disaster Preparedness"
-tags: [ 'security', 'howto' ]
 location: "Starbucks on 2nd ave"
 ---
 
