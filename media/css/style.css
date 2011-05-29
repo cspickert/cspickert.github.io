@@ -54,7 +54,8 @@ body {
     overflow-x: hidden; }
 
 article.post {
-  margin-bottom: 3em; }
+  overflow: hidden;
+  *zoom: 1; }
   article.post header h2 {
     margin-bottom: 0.4em; }
   article.post header time {
