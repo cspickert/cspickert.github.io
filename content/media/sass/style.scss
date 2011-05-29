@@ -55,7 +55,7 @@ body {
 }
 
 article.post {
-	margin-bottom: 3em;
+	@include clearfix;
 	
 	header {
 		h2 {
