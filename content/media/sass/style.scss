@@ -9,8 +9,6 @@ body {
 	margin: 0;
 	padding: 0;
 	
-	border-top: solid 2px #23c;
-	
 	font: normal 13px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
 	line-height: 18px;
 	color: #222;
@@ -32,13 +30,16 @@ body {
 }
 
 #site {
-	@include container;
+	@include clearfix;
+	width: 966px;
+	margin: 0 auto;
 }
 
 #sidebar {
 	position: fixed;
-	@include column(5);
-	@include prepend(1);
+	float: left;
+	width: 175px;
+	padding: 0 40px;
 	
 	footer {
 		color: #888;
@@ -46,16 +47,16 @@ body {
 }
 
 #content {
-	@include column(16, true);
-	@include push(6);
-	@include prepend(1);
-	@include append(4);
-	padding-top: 1.4em;
+	float: left;
+	width: 630px;
+	margin-left: 255px;
+	padding: 1.4em 40px 2em;
 	border-left: dotted 1px #aaa;
 }
 
 article.post {
 	@include clearfix;
+	margin-bottom: 1em;
 	
 	header {
 		h2 {
