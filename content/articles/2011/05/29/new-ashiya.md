@@ -8,9 +8,6 @@ place:
     address: |
         167 1st Ave
         New York, NY 10003
-    google: http://maps.google.com/
-    yelp: http://www.yelp.com/biz/new-ashiya-new-york
-    foursquare: https://foursquare.com/venue/76848
 ---
 
 _This is the first of what will hopefully be an ongoing series about places and businesses I've visited._

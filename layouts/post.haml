@@ -7,7 +7,7 @@
     %time{:datetime => date.to_s, :pubdate => true}<
       = date.strftime("%A, %b %e, %Y")
     - if item[:tags]
-      = " in #{tags_for(item)}"
+      = " in #{tags_for(item, :base_url => '/tags/')}"
   %section.content
     = render('place', :item => item) if item.attributes.has_key?(:place)
     = content

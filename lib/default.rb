@@ -2,6 +2,12 @@ include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
 include Nanoc3::Helpers::Rendering
 
+module Nanoc3::Helpers::Rendering
+  def link_for_tag(tag, base_url)
+    %[<a href="#{base_url}#{tag}/" rel="tag">#{tag}</a>]
+  end
+end
+
 class Nanoc3::Item
   def title
     return self[:title] if self[:title]

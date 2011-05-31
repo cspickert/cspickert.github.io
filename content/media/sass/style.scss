@@ -55,27 +55,49 @@ body {
 	float: left;
 	width: 630px;
 	margin-left: 255px;
-	padding: 1.4em 40px 2em;
+	padding: 2.5em 40px 2em;
 	border-left: dotted 1px #aaa;
 }
 
 article.post {
 	@include clearfix;
+	clear: both;
 	margin-bottom: 1em;
 	
+	p {
+		margin: 0 0 1em;
+	}
+	
+	p:last-child {
+		margin: 0;
+	}
+	
 	header {
+		margin-bottom: 1em;
+		
 		h2 {
-			margin-bottom: 0.4em;
+			margin:0 0 0.4em;
 		}
 		time {
 			color: #666;
 		}
 	}
 	
+	.content {
+		float: left;
+		margin-bottom: 1em;
+	}
+	
+	footer {
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+	
 	.place-info {
 		width: 150px;
 		float: left;
-		margin-right: 1.3em;
+		margin-right: 20px;
 		
 		margin-top: 4px;
 		margin-bottom: 4px;
@@ -90,7 +112,8 @@ article.post {
 		}
 		
 		.name, .address {
-			padding: 0 0.5em;
+			padding: 0 0 3px;
+			/*padding: 0 0.5em;*/
 		}
 		
 		.name {

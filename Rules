@@ -1,31 +1,50 @@
 #!/usr/bin/env ruby
 
+# ---- Preprocessing ----
+
+preprocess do
+  def generate_tag_indexes
+    all_tags = items.map { |i| i[:tags] }.flatten.compact.uniq
+    all_tags.each do |tag|
+      tag_index = Nanoc3::Item.new("", { :title => "Tagged: #{tag}", :tag => tag }, "/tags/#{tag}")
+      tag_index.site = site
+      site.items << tag_index
+    end
+  end
+  generate_tag_indexes
+end
+
 # ---- Compilation ----
 
-compile 'media/sass/_*/' do
+compile '/media/sass/_*/' do
   nil
 end
 
 require 'compass'
-compile 'media/sass/*/' do
+compile '/media/sass/*/' do
   filter :sass, :syntax => :scss, :load_paths => Compass.sass_engine_options[:load_paths]
 end
 
-compile 'media/*/' do
+compile '/media/*/' do
   nil
 end
 
-compile 'CNAME' do
+compile '/CNAME/' do
   nil
 end
 
-compile 'articles/*/' do
+compile '/articles/*/' do
   filter :rdiscount
   layout 'post'
   layout 'default'
 end
 
-compile 'feed/' do
+compile '/tags/*/' do
+  layout 'tag'
+  layout 'default'
+end
+
+compile '/feed/' do
   filter :erb
 end
 
@@ -36,19 +55,19 @@ end
 
 # ---- Routing ----
 
-route 'media/sass/_*/' do
+route '/media/sass/_*/' do
   nil
 end
 
-route 'CNAME' do
+route '/CNAME/' do
   '/CNAME'
 end
 
-route 'media/sass/*/' do
+route '/media/sass/*/' do
   item.identifier.gsub(%r{^/media/sass/}, "/media/css/").chop + ".css"
 end
 
-route 'media/*/' do
+route '/media/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
@@ -56,7 +75,7 @@ route '/articles/*/' do
   item.identifier.gsub(%r{^/articles/}, "/") + "index.html"
 end
 
-route 'feed/' do
+route '/feed/' do
   '/feed.xml'
 end
 
