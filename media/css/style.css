@@ -21,8 +21,8 @@ body {
 #site {
   overflow: hidden;
   *zoom: 1;
-  clear: both;
-  margin-left: 5%; }
+  width: 966px;
+  margin: 0 auto; }
 
 #sidebar {
   position: fixed;
