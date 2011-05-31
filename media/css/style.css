@@ -17,6 +17,9 @@ body {
   body h1 {
     font-size: 2.5em;
     line-height: 1.1em; }
+  body h2 {
+    font-size: 22px;
+    line-height: 24px; }
 
 #site {
   overflow: hidden;
@@ -65,3 +68,7 @@ article.post {
     article.post .place-info .address {
       font-size: 0.9em;
       color: #555; }
+
+article.place h2 {
+  text-indent: 20px;
+  background: left no-repeat url("/media/icons/map-marker.png"); }
