@@ -2,13 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://cameronspickert.com/</id>
   <title>Cameron Spickert's Blog</title>
-  <updated>2011-05-29T04:00:00Z</updated>
+  <updated>2011-05-31T04:00:00Z</updated>
   <link rel="alternate" href="http://cameronspickert.com/"/>
   <link rel="self" href="http://cameronspickert.com/feed.xml"/>
   <author>
     <name>Cameron Spickert</name>
     <uri>http://cameronspickert.com</uri>
   </author>
+  <entry>
+    <id>tag:cameronspickert.com,2011-05-31:/2011/05/31/thompson-les/</id>
+    <title type="html">Thompson LES</title>
+    <published>2011-05-31T04:00:00Z</published>
+    <updated>2011-05-31T04:00:00Z</updated>
+    <link rel="alternate" href="http://cameronspickert.com/2011/05/31/thompson-les/"/>
+    <content type="html">&lt;p&gt;I went to a birthday party at a top-floor room at the Thompson LES (LES = "Lower East Side") on Sunday. As far as I can tell, it's the tallest building in the area, which made for an absolutely spectacular night-time view from the private deck. The room spans the length of the building and faces west, making for a perfect view of both the financial district, the Brooklyn Bridge, and midtown. I shudder to think what it would cost to actually stay here, and I'm glad the only cost to me was a bottle of rum.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:cameronspickert.com,2011-05-29:/2011/05/29/new-ashiya/</id>
     <title type="html">New Ashiya</title>

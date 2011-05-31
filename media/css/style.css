@@ -39,21 +39,35 @@ body {
   float: left;
   width: 630px;
   margin-left: 255px;
-  padding: 1.4em 40px 2em;
+  padding: 2.5em 40px 2em;
   border-left: dotted 1px #aaa; }
 
 article.post {
   overflow: hidden;
   *zoom: 1;
+  clear: both;
   margin-bottom: 1em; }
-  article.post header h2 {
-    margin-bottom: 0.4em; }
-  article.post header time {
-    color: #666; }
+  article.post p {
+    margin: 0 0 1em; }
+  article.post p:last-child {
+    margin: 0; }
+  article.post header {
+    margin-bottom: 1em; }
+    article.post header h2 {
+      margin: 0 0 0.4em; }
+    article.post header time {
+      color: #666; }
+  article.post .content {
+    float: left;
+    margin-bottom: 1em; }
+  article.post footer {
+    width: 100%;
+    float: left;
+    clear: both; }
   article.post .place-info {
     width: 150px;
     float: left;
-    margin-right: 1.3em;
+    margin-right: 20px;
     margin-top: 4px;
     margin-bottom: 4px; }
     article.post .place-info .map, article.post .place-info .name, article.post .place-info .address {
@@ -62,7 +76,8 @@ article.post {
       border-radius: 3px;
       margin-bottom: 10px; }
     article.post .place-info .name, article.post .place-info .address {
-      padding: 0 0.5em; }
+      padding: 0 0 3px;
+      /*padding: 0 0.5em;*/ }
     article.post .place-info .name {
       font-weight: bold; }
     article.post .place-info .address {
