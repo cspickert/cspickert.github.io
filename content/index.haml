@@ -6,4 +6,4 @@ kind: index
 
 %section{:id => "posts"}
   - sorted_articles.each do |post|
-    = render 'post', :item => post, :content => post.compiled_content
+    = render('post', :item => post, :content => post.compiled_content)
