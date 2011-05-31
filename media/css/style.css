@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  border-top: solid 2px #23c;
   font: normal 13px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
   line-height: 18px;
   color: #222; }
@@ -20,42 +19,30 @@ body {
     line-height: 1.1em; }
 
 #site {
-  width: 950px;
-  margin: 0 auto;
   overflow: hidden;
-  *zoom: 1; }
+  *zoom: 1;
+  clear: both;
+  margin-left: 5%; }
 
 #sidebar {
   position: fixed;
-  display: inline;
   float: left;
-  margin-right: 10px;
-  width: 190px;
-  padding-left: 40px; }
-  * html #sidebar {
-    overflow-x: hidden; }
+  width: 175px;
+  padding: 0 40px; }
   #sidebar footer {
     color: #888; }
 
 #content {
-  display: inline;
   float: left;
-  margin-right: 0;
   width: 630px;
-  display: inline;
-  float: left;
-  position: relative;
-  margin: 0 -240px 1.5em 240px;
-  padding-left: 40px;
-  padding-right: 160px;
-  padding-top: 1.4em;
+  margin-left: 255px;
+  padding: 1.4em 40px 2em;
   border-left: dotted 1px #aaa; }
-  * html #content {
-    overflow-x: hidden; }
 
 article.post {
   overflow: hidden;
-  *zoom: 1; }
+  *zoom: 1;
+  margin-bottom: 1em; }
   article.post header h2 {
     margin-bottom: 0.4em; }
   article.post header time {
