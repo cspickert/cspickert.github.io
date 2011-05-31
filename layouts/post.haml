@@ -1,4 +1,4 @@
-%article{:class => article_classes(item)}
+%article{:class => ['post', item[:type]].compact.join(' ')}
   %header
     %h2
       %a{:href => item.rel_url}= item.title
@@ -6,9 +6,8 @@
     = "Posted on "
     %time{:datetime => date.to_s, :pubdate => true}<
       = date.strftime("%A, %b %e, %Y")
-    - if item[:tags]
-      = " in #{tags_for(item, :base_url => '/tags/')}"
+    = " in #{tags_for(item, :base_url => '/tags/')}" if item[:tags]
   %section.content
-    = render('place', :item => item) if item.attributes.has_key?(:place)
+    = render(item[:type], :item => item) if item.attributes.has_key?(:type)
     = content
   %footer

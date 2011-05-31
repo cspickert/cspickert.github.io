@@ -3,6 +3,7 @@ created_at: 2011-05-29
 kind: article
 title: "New Ashiya"
 tags: [ 'places' ]
+type: place
 place:
     name: "New Ashiya"
     address: |

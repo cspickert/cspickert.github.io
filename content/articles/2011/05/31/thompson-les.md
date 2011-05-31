@@ -3,6 +3,7 @@ created_at: 2011-05-31
 kind: article
 title: "Thompson LES"
 tags: [ 'places' ]
+type: place
 place:
     name: "Thompson LES"
     address: |
