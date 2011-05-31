@@ -56,7 +56,7 @@ article.post {
     article.post .place-info .map, article.post .place-info .name, article.post .place-info .address {
       display: block; }
     article.post .place-info .map {
-      border-radius: 6px;
+      border-radius: 3px;
       margin-bottom: 10px; }
     article.post .place-info .name, article.post .place-info .address {
       padding: 0 0.5em; }
