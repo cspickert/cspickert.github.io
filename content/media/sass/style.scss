@@ -94,26 +94,32 @@ article.post {
 		clear: both;
 	}
 	
-	.place-info {
-		width: 150px;
-		float: left;
-		margin-right: 20px;
-		
-		margin-top: 4px;
-		margin-bottom: 4px;
-		
-		.map, .name, .address {
-			display: block;
-		}
+	.info {
+		@include clearfix;
+		position: relative;
+		width: 100%;
+		margin-bottom: 1em;
 		
 		.map {
+			float: left;
+			width: 150px;
+			height: 100px;
+			margin-right: 1em;
 			border-radius: 3px;
-			margin-bottom: 10px;
+		}
+		
+		.details {
+			@include clearfix;
+			position: absolute;
+			bottom: -4px;
+			left: 162px;
 		}
 		
 		.name, .address {
-			padding: 0 0 3px;
-			/*padding: 0 0.5em;*/
+			width: 100%;
+			display: block;
+			float: left;
+			clear: right;
 		}
 		
 		.name {

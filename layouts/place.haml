@@ -1,4 +1,5 @@
-%section.place-info
+%section.info
   %img.map{:src => get_place_map_for(item)}
-  %span.name= item[:place][:name]
-  %span.address= item[:place][:address]
+  %div.details
+    %span.name= item[:place][:name]
+    %span.address= item[:place][:address]
