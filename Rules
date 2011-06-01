@@ -36,6 +36,7 @@ end
 compile '/articles/*/' do
   filter :rdiscount
   layout 'post'
+  layout 'post_comments'
   layout 'default'
 end
 

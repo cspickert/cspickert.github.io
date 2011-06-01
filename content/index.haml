@@ -6,4 +6,13 @@ kind: index
 
 %section#posts
   - sorted_articles.each do |post|
-    = render('post', :item => post, :content => post.compiled_content)
+    = render('post', :item => post, :content => post.compiled_content, :show_comment_count => true)
+:javascript
+  var disqus_shortname = "cameronspickert";
+  
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());

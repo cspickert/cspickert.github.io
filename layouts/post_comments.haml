@@ -1,0 +1,19 @@
+= content
+#disqus_thread
+:javascript
+  var disqus_shortname = "cameronspickert";
+  var disqus_identifier = "#{item.title.parameterize}";
+  var disqus_url = "#{url_for(item)}";
+
+  (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+%noscript
+  :markdown
+    Please enable JavaScript to view the [comments powered by Disqus.][1]
+    [1]: http://disqus.com/?ref_noscript
+%a{:href => "http://disqus.com", :class => "dsq-brlink"}<
+  blog comments powered by
+  %span{:class => "logo-disqus"} Disqus

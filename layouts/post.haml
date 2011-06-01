@@ -11,3 +11,5 @@
     = render(item[:type], :item => item) if item.attributes.has_key?(:type)
     = content
   %footer
+    - if @show_comment_count
+      %a{:href => "#{url_for(item)}#disqus_thread", "data-disqus-identifier" => item.title.parameterize} Comments
