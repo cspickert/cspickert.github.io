@@ -19,6 +19,45 @@
 </content>
   </entry>
   <entry>
+    <id>tag:cameronspickert.com,2011-05-31:/2011/05/31/how-i-use-pyobjc/</id>
+    <title type="html">How I Use PyObjC</title>
+    <published>2011-05-31T04:00:00Z</published>
+    <updated>2011-05-31T04:00:00Z</updated>
+    <link rel="alternate" href="http://cameronspickert.com/2011/05/31/how-i-use-pyobjc/"/>
+    <content type="html">&lt;p&gt;I started iOS development just under two years ago, while I was a senior in college. The Cocoa frameworks are the first major code library I've used, and while the learning curve was quite steep at first, I finally feel like I've reached a level of fluency that allows me to be productive. Part of the reason I feel so much more productive than I did when I started out is because I've discovered some (probably very non-standard) workflows that let me cut down the amount of time it takes me to produce better code.&lt;/p&gt;
+
+&lt;p&gt;One of the biggest bottlenecks for me when learning to use new frameworks in Objective-C is the amount of time it takes to experiment. Call me spoiled, but I find the need to recompile my code every time I change a line to be very annoying, especially in light of the ability to hit command-R in TextMate while programming in Ruby or Python and have my code execute immediately.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enter PyObjC&lt;/strong&gt;. PyObjC has to be one of the most underrated (or at least under-mentioned) tools around when it comes to experimenting with the Cocoa frameworks. While it's true that it only gives you access to the Mac frameworks (as opposed to iOS-specific behavior), at least the model code is going to be the same for both Mac and iOS.&lt;/p&gt;
+
+&lt;p&gt;One simple statement gives you access to the Foundation classes (others, like Core Data and Address Book, are also available):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; from Foundation import *
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After that, you can experiment away. For example, if you want to test out the syntax and behavior of collection operators on NSSet instances, you can go nuts:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; setOfSets = NSSet.setWithObjects_(
+...     set([1,2,3]),
+...     set([2,3,4])
+... )
+&amp;gt;&amp;gt;&amp;gt; setOfSets.valueForKeyPath_("@distinctUnionOfSets.self")
+{(
+    3,
+    2,
+    1,
+    4
+)}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Rather than setting up a whole new Xcode project for your experiments, you can simply keep a terminal window (or TextMate) open next to your main project. As a means of interactive testing, it sure beats the pants off of GDB.&lt;/p&gt;
+
+&lt;p&gt;Things get even more interesting when you consider using PyObjC to create actual tools that support your Objective-C development. For example, here's &lt;a href="https://gist.github.com/910824"&gt;a fully functional tool I wrote to help localize Core Data model files&lt;/a&gt;. While I've concluded that PyObjC isn't very good for developing GUI-based apps, it's perfect for self-contained tasks like this one.&lt;/p&gt;
+
+&lt;p&gt;If you're learning iOS or Mac development, I highly suggest playing around with PyObjC. Use it while reading the documentation, to test things out, and just to generally make your life easier.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <id>tag:cameronspickert.com,2011-05-29:/2011/05/29/new-ashiya/</id>
     <title type="html">New Ashiya</title>
     <published>2011-05-29T04:00:00Z</published>
@@ -104,49 +143,6 @@
 &lt;p&gt;In all situations, the best thing you can do is change your password(s), and be eternally skeptical any time a site guarantees the safety of your information. With our increased reliability on internet services to accomplish vital tasks like online banking, it is &lt;em&gt;always&lt;/em&gt; a good idea to be overly cautious.&lt;/p&gt;
 
 &lt;p&gt;Also, I could write an entirely different post about this, but continuing in the spirit of being prepared for disasters: &lt;strong&gt;go back up your important files NOW&lt;/strong&gt;. With free services like &lt;a href="https://www.dropbox.com/"&gt;Dropbox&lt;/a&gt; readily available, you have no more excuses not to.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:cameronspickert.com,2011-02-04:/2011/02/04/music-is-life-is-music/</id>
-    <title type="html">Music is Life is Music</title>
-    <published>2011-02-04T05:00:00Z</published>
-    <updated>2011-02-04T05:00:00Z</updated>
-    <link rel="alternate" href="http://cameronspickert.com/2011/02/04/music-is-life-is-music/"/>
-    <content type="html">&lt;p&gt;I got the title from some random ad in &lt;a href="http://foursquare.com/venue/69964"&gt;my subway station&lt;/a&gt;, but it&#8217;s kind of true. Music has been an integral part of my life from piano lessons&#8212;for about 8 years of my life&#8212;to singing in high school and college, to playing guitar and listening to music on my iPhone and computer just about 24/7. Programming, traveling, relaxing: music plays a part in nearly everything I do.&lt;/p&gt;
-
-
-&lt;p&gt;In all the ways I&#8217;ve interacted with music, one mode has affected me more than all the others: being at concerts. Back in middle school, I saw Tom Petty at Red Rocks, and I&#8217;ve been absolutely addicted ever since. Unfortunately, rather than satisfying that addiction, I&#8217;ve spent most of my time having withdrawals and flashbacks to the last great show. It&#8217;s not that the Denver area hasn&#8217;t historically attracted some big names&#8212;the Beatles even made a stop at Red Rocks on their 1964 world tour&#8212;and I certainly had a decent selection while I was in Boston. It&#8217;s just been all too easy for life and school to get in the way.&lt;/p&gt;
-
-
-&lt;p&gt;One of the great things about living in New York is that almost every artist I currently listen to has performed in the city during the time I&#8217;ve lived here (since June 2010). Add decent public transportation to an abundance of great concerts, and you get a recipe for awesome. Or spending a lot of money on concert tickets. Or both.&lt;/p&gt;
-
-
-&lt;p&gt;It&#8217;s true, concerts are loud (sometimes eardrum-splittingly so), crowded, messy and expensive. But there&#8217;s really nothing quite like hearing your favorite songs being played by their creators &lt;em&gt;for you&lt;/em&gt;, and for me, there&#8217;s no expense too great to have that. This is one addiction I don&#8217;t plan on giving up for the rest of my life.&lt;/p&gt;
-
-
-&lt;p&gt;In case anyone is curious/cares, here is basically every major concert I&#8217;ve been to:&lt;/p&gt;
-
-
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Tom Petty and the Heartbreakers&lt;/strong&gt; (Red Rocks Amphitheater - Morrison, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Weird Al Yankovic&lt;/strong&gt; (Pepsi Center - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interpol&lt;/strong&gt; (Fillmore Auditorium - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Death Cab for Cutie&lt;/strong&gt; (Fillmore Auditorium - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Foo Fighters&lt;/strong&gt; &amp;amp; &lt;strong&gt;Weezer&lt;/strong&gt; (Pepsi Center - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kid Sister&lt;/strong&gt;, &lt;strong&gt;The Cool Kids&lt;/strong&gt; &amp;amp; &lt;strong&gt;Kanye West&lt;/strong&gt; (American Museum of Natural History - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Third Eye Blind&lt;/strong&gt; (Harvard Yard - Cambridge, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MIA&lt;/strong&gt; (?? - Worcester, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Black Kids&lt;/strong&gt; (?? - Boston, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wu Tang Clan&lt;/strong&gt;&#160;(Harvard Yard - Cambridge, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Jason Mraz&lt;/strong&gt; (Orpheum Theatre - Boston, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bob Dylan&lt;/strong&gt; (Wang Theatre - Boston, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ratatat&lt;/strong&gt; (Harvard Yard - Cambridge, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Flaming Lips&lt;/strong&gt; (Terminal 5 - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Robyn&lt;/strong&gt;&#160;(Radio City Music Hall - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interpol&lt;/strong&gt;&#160;(2/17/11 - Radio City Music Hall - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cold War Kids&lt;/strong&gt; (Radio City Music Hall - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fleet Foxes&lt;/strong&gt; (United Palace Theatre - New York, NY)&lt;/li&gt;
-&lt;/ul&gt;
-
 </content>
   </entry>
 </feed>

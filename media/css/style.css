@@ -64,23 +64,32 @@ article.post {
     width: 100%;
     float: left;
     clear: both; }
-  article.post .place-info {
-    width: 150px;
-    float: left;
-    margin-right: 20px;
-    margin-top: 4px;
-    margin-bottom: 4px; }
-    article.post .place-info .map, article.post .place-info .name, article.post .place-info .address {
-      display: block; }
-    article.post .place-info .map {
-      border-radius: 3px;
-      margin-bottom: 10px; }
-    article.post .place-info .name, article.post .place-info .address {
-      padding: 0 0 3px;
-      /*padding: 0 0.5em;*/ }
-    article.post .place-info .name {
+  article.post .info {
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1em; }
+    article.post .info .map {
+      float: left;
+      width: 150px;
+      height: 100px;
+      margin-right: 1em;
+      border-radius: 3px; }
+    article.post .info .details {
+      overflow: hidden;
+      *zoom: 1;
+      position: absolute;
+      bottom: -4px;
+      left: 162px; }
+    article.post .info .name, article.post .info .address {
+      width: 100%;
+      display: block;
+      float: left;
+      clear: right; }
+    article.post .info .name {
       font-weight: bold; }
-    article.post .place-info .address {
+    article.post .info .address {
       font-size: 0.9em;
       color: #555; }
 
