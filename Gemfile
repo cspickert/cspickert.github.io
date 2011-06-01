@@ -1,6 +1,7 @@
 source :rubygems
 
-gem 'nanoc3', :git => "git://github.com/cspicker/nanoc.git"
+gem 'nanoc3', :git => "git://github.com/ddfreyne/nanoc.git"
+gem 'nanoc-git', :git => "git://github.com/cspicker/nanoc-git.git"
 gem 'rake'
 gem 'haml'
 gem 'sass'

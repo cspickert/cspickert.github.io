@@ -1,6 +1,14 @@
 GIT
-  remote: git://github.com/cspicker/nanoc.git
-  revision: 389173845e92ca7454f74efe4a5f7f20804c9d06
+  remote: git://github.com/cspicker/nanoc-git.git
+  revision: babb56c03aed6023b3ed9ee12e7eab11ce2ba40c
+  specs:
+    nanoc-git (0.0.7)
+      git (>= 1.2.5)
+      nanoc (>= 3.1.6)
+
+GIT
+  remote: git://github.com/ddfreyne/nanoc.git
+  revision: 050e6604f48c1dca7128046ec8a69398adac870a
   specs:
     nanoc3 (3.2.0a3)
       cri (>= 1.0.0)
@@ -20,9 +28,11 @@ GEM
     haml (3.1.1)
     i18n (0.6.0)
     json (1.5.1)
-    rake (0.9.0)
+    nanoc (3.1.7)
+      nanoc3 (>= 3.1.7)
+    rake (0.9.1)
     rdiscount (1.6.8)
-    sass (3.1.1)
+    sass (3.1.2)
 
 PLATFORMS
   ruby
@@ -34,6 +44,7 @@ DEPENDENCIES
   haml
   i18n
   json
+  nanoc-git!
   nanoc3!
   rake
   rdiscount
