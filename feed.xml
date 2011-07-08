@@ -2,13 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://cameronspickert.com/</id>
   <title>Cameron Spickert's Blog</title>
-  <updated>2011-05-31T04:00:00Z</updated>
+  <updated>2011-07-08T04:00:00Z</updated>
   <link rel="alternate" href="http://cameronspickert.com/"/>
   <link rel="self" href="http://cameronspickert.com/feed.xml"/>
   <author>
     <name>Cameron Spickert</name>
     <uri>http://cameronspickert.com</uri>
   </author>
+  <entry>
+    <id>tag:cameronspickert.com,2011-07-08:/2011/07/08/reflecting-on-year-one-in-nyc/</id>
+    <title type="html">Reflecting on Year One in NYC</title>
+    <published>2011-07-08T04:00:00Z</published>
+    <updated>2011-07-08T04:00:00Z</updated>
+    <link rel="alternate" href="http://cameronspickert.com/2011/07/08/reflecting-on-year-one-in-nyc/"/>
+    <content type="html">&lt;p&gt;It's been an eventful year since I graduated last summer, made the transition from Cambridge to Bushwick. There's much more to this story, but I'm hoping this quick retrospective will kickstart this blog back into action.&lt;/p&gt;
+
+&lt;h3&gt;Work&lt;/h3&gt;
+
+&lt;p&gt;A year ago was an exciting time for us: some friends and I had made &lt;a href="http://itunes.apple.com/us/app/rover-unofficial-guide-to/id312281600?mt=8"&gt;a successful iPhone app&lt;/a&gt; together, been &lt;a href="http://online.wsj.com/article/SB10001424052748704188104575083293556739002.html"&gt;profiled by the Wall Street Journal&lt;/a&gt;, and received enough money from AT&amp;amp;T to work on mobile apps for schools AND live off of for a year. Times were good.&lt;/p&gt;
+
+&lt;p&gt;We worked hard to get our work off the ground, finding our way with AT&amp;amp;T, some of their partner companies, and of course, universities, and ended up deploying the &lt;a href="http://itunes.apple.com/app/id441605750?mt=8"&gt;Columbia Business School mobile app&lt;/a&gt; last month after a year of hard work. While we didn't quite take our business to the level we wanted, we ended up with a product we can be proud of.&lt;/p&gt;
+
+&lt;p&gt;As our team heads off in different directions, things are getting exciting once again. I'll have more to tell in a little over a week.&lt;/p&gt;
+
+&lt;h3&gt;Life&lt;/h3&gt;
+
+&lt;p&gt;I'm convinced I'm a different person than I was when I arrived in New York City. It took a long time for me to get over how dirty, crowded and expensive it can be, but I'm learning to love it here--there really is no place like it. I've particularly enjoyed the &lt;a href="/2011/02/04/music-is-life-is-music/"&gt;live music scene&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bushwick has been great to me, and I'll miss it when I leave for Manhattan. I'm consistently amazed at how lucky we got with our apartment--even though our building has been an unexpected (or unwanted) adventure at times, we're around the corner from the L train, we now have a 24-hour grocery store across the street, and there are restaurants and shops popping up everywhere. We couldn't have asked for a better introduction to the city.&lt;/p&gt;
+
+&lt;h3&gt;Happy New Year, NYC!&lt;/h3&gt;
+
+&lt;p&gt;I have lots of goals for the next year: getting a bike and commuting above-ground, getting more involved in the NYC startup scene, and meeting more people, to name a few. It's definitely going to be a busy year. Oh, and &lt;a href="/2011/02/04/music-is-life-is-music/"&gt;more concerts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, once again, I hope to make this blog worth reading!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <id>tag:cameronspickert.com,2011-05-31:/2011/05/31/thompson-les/</id>
     <title type="html">Thompson LES</title>
@@ -104,49 +133,6 @@
 &lt;p&gt;In all situations, the best thing you can do is change your password(s), and be eternally skeptical any time a site guarantees the safety of your information. With our increased reliability on internet services to accomplish vital tasks like online banking, it is &lt;em&gt;always&lt;/em&gt; a good idea to be overly cautious.&lt;/p&gt;
 
 &lt;p&gt;Also, I could write an entirely different post about this, but continuing in the spirit of being prepared for disasters: &lt;strong&gt;go back up your important files NOW&lt;/strong&gt;. With free services like &lt;a href="https://www.dropbox.com/"&gt;Dropbox&lt;/a&gt; readily available, you have no more excuses not to.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:cameronspickert.com,2011-02-04:/2011/02/04/music-is-life-is-music/</id>
-    <title type="html">Music is Life is Music</title>
-    <published>2011-02-04T05:00:00Z</published>
-    <updated>2011-02-04T05:00:00Z</updated>
-    <link rel="alternate" href="http://cameronspickert.com/2011/02/04/music-is-life-is-music/"/>
-    <content type="html">&lt;p&gt;I got the title from some random ad in &lt;a href="http://foursquare.com/venue/69964"&gt;my subway station&lt;/a&gt;, but it&#8217;s kind of true. Music has been an integral part of my life from piano lessons&#8212;for about 8 years of my life&#8212;to singing in high school and college, to playing guitar and listening to music on my iPhone and computer just about 24/7. Programming, traveling, relaxing: music plays a part in nearly everything I do.&lt;/p&gt;
-
-
-&lt;p&gt;In all the ways I&#8217;ve interacted with music, one mode has affected me more than all the others: being at concerts. Back in middle school, I saw Tom Petty at Red Rocks, and I&#8217;ve been absolutely addicted ever since. Unfortunately, rather than satisfying that addiction, I&#8217;ve spent most of my time having withdrawals and flashbacks to the last great show. It&#8217;s not that the Denver area hasn&#8217;t historically attracted some big names&#8212;the Beatles even made a stop at Red Rocks on their 1964 world tour&#8212;and I certainly had a decent selection while I was in Boston. It&#8217;s just been all too easy for life and school to get in the way.&lt;/p&gt;
-
-
-&lt;p&gt;One of the great things about living in New York is that almost every artist I currently listen to has performed in the city during the time I&#8217;ve lived here (since June 2010). Add decent public transportation to an abundance of great concerts, and you get a recipe for awesome. Or spending a lot of money on concert tickets. Or both.&lt;/p&gt;
-
-
-&lt;p&gt;It&#8217;s true, concerts are loud (sometimes eardrum-splittingly so), crowded, messy and expensive. But there&#8217;s really nothing quite like hearing your favorite songs being played by their creators &lt;em&gt;for you&lt;/em&gt;, and for me, there&#8217;s no expense too great to have that. This is one addiction I don&#8217;t plan on giving up for the rest of my life.&lt;/p&gt;
-
-
-&lt;p&gt;In case anyone is curious/cares, here is basically every major concert I&#8217;ve been to:&lt;/p&gt;
-
-
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Tom Petty and the Heartbreakers&lt;/strong&gt; (Red Rocks Amphitheater - Morrison, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Weird Al Yankovic&lt;/strong&gt; (Pepsi Center - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interpol&lt;/strong&gt; (Fillmore Auditorium - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Death Cab for Cutie&lt;/strong&gt; (Fillmore Auditorium - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Foo Fighters&lt;/strong&gt; &amp;amp; &lt;strong&gt;Weezer&lt;/strong&gt; (Pepsi Center - Denver, CO)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Kid Sister&lt;/strong&gt;, &lt;strong&gt;The Cool Kids&lt;/strong&gt; &amp;amp; &lt;strong&gt;Kanye West&lt;/strong&gt; (American Museum of Natural History - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Third Eye Blind&lt;/strong&gt; (Harvard Yard - Cambridge, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;MIA&lt;/strong&gt; (?? - Worcester, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Black Kids&lt;/strong&gt; (?? - Boston, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wu Tang Clan&lt;/strong&gt;&#160;(Harvard Yard - Cambridge, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Jason Mraz&lt;/strong&gt; (Orpheum Theatre - Boston, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bob Dylan&lt;/strong&gt; (Wang Theatre - Boston, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ratatat&lt;/strong&gt; (Harvard Yard - Cambridge, MA)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Flaming Lips&lt;/strong&gt; (Terminal 5 - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Robyn&lt;/strong&gt;&#160;(Radio City Music Hall - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interpol&lt;/strong&gt;&#160;(2/17/11 - Radio City Music Hall - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cold War Kids&lt;/strong&gt; (Radio City Music Hall - New York, NY)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fleet Foxes&lt;/strong&gt; (United Palace Theatre - New York, NY)&lt;/li&gt;
-&lt;/ul&gt;
-
 </content>
   </entry>
 </feed>
