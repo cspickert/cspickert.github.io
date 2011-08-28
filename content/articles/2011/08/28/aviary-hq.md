@@ -2,6 +2,7 @@
 created_at: 2011-08-28
 kind: article
 title: "Aviary HQ"
+tags: [ 'places' ]
 type: place
 place:
     name: "Aviary HQ"
