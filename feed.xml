@@ -2,13 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://cameronspickert.com/</id>
   <title>Cameron Spickert's Blog</title>
-  <updated>2011-08-28T04:00:00Z</updated>
+  <updated>2011-08-30T04:00:00Z</updated>
   <link rel="alternate" href="http://cameronspickert.com/"/>
   <link rel="self" href="http://cameronspickert.com/feed.xml"/>
   <author>
     <name>Cameron Spickert</name>
     <uri>http://cameronspickert.com</uri>
   </author>
+  <entry>
+    <id>tag:cameronspickert.com,2011-08-30:/2011/08/30/uiimage-from-uiview/</id>
+    <title type="html">Easily create a UIImage from a UIView</title>
+    <published>2011-08-30T04:00:00Z</published>
+    <updated>2011-08-30T04:00:00Z</updated>
+    <link rel="alternate" href="http://cameronspickert.com/2011/08/30/uiimage-from-uiview/"/>
+    <content type="html">&lt;p&gt;One of my projects at Aviary necessitated generating a static UIImage from a UIView. Fortunately, Quartz makes it really simple to do this. Here's a quick category on UIView showing how it can be done.&lt;/p&gt;
+
+&lt;p&gt;To explain: -createImageFromRect: method generates an image by rendering the portion of the view bounded by "frame" in an image context. Note that CALayer's -renderInContext: method renders the entire layer tree, creating a flat image from the view hierarchy.&lt;/p&gt;
+
+&lt;br&gt;
+
+
+&lt;script src="https://gist.github.com/1181935.js?file=gistfile1.m"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <id>tag:cameronspickert.com,2011-08-28:/2011/08/28/aviary-hq/</id>
     <title type="html">Aviary HQ</title>
@@ -65,40 +82,6 @@
     <content type="html">&lt;p&gt;&lt;em&gt;This is the first of what will hopefully be an ongoing series about places and businesses I've visited.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;New Ashiya is a sushi restaurant on 1st Ave in the East Village. It looks pretty innocuous on the outside, but walk inside and you'll immediately see that this isn't your average Japanese restaurant. In addition to their regular menu, they have an all you can eat &lt;em&gt;and drink&lt;/em&gt; option for $33 per person. For 2 hours, you can order as much sushi, sake and beer as you can handle (without going overboard--the menu warns of additional charges for wasted food). We opted to try every special roll on the menu (about 10 different kinds), plus some tuna and salmon sashimi. The highlight was definitely the black pepper tuna roll, something I've never seen or tasted anywhere else. Oh, and we did lots of sake bombs.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <id>tag:cameronspickert.com,2011-05-28:/2011/05/28/my-password-management-setup/</id>
-    <title type="html">My Password Management Setup</title>
-    <published>2011-05-28T04:00:00Z</published>
-    <updated>2011-05-28T04:00:00Z</updated>
-    <link rel="alternate" href="http://cameronspickert.com/2011/05/28/my-password-management-setup/"/>
-    <content type="html">&lt;p&gt;Since &lt;a href="/2011/05/27/internet-disaster-preparedness/"&gt;my last post&lt;/a&gt; on identity theft/worst case scenarios regarding user accounts on the web was a bit technical/unclear, I figured I'd follow up with a better answer to the question: "so what should I do about it?" Since weak passwords and site-specific attacks are the biggest threat, I think the best way for me to answer that question is to walk through my current account management scheme.&lt;/p&gt;
-
-&lt;p&gt;My system runs on one simple rule: &lt;strong&gt;don't use the same password twice&lt;/strong&gt;. When I register new accounts online, I use a different password every time. That way, if one site I use gets compromised, my other accounts won't be affected. Obviously, this would be impractical if I had to remember every single password I registered with, or even if I had to keep them all written down. So here are the supporting requirements of my system:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Keep memorization to a minimum.&lt;/strong&gt; I don't want to waste brain power memorizing hundreds of passwords.&lt;/li&gt;
-&lt;li&gt;I should be able to access my passwords &lt;strong&gt;quickly&lt;/strong&gt;--only slightly slower than the same amount of time it would take to recall them from memory and type them out.&lt;/li&gt;
-&lt;li&gt;I should be able to access my passwords &lt;strong&gt;wherever I am&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;I'm basically looking for the convenience of using a single password everywhere, but with much better security. Fortunately, this is easily accomplished using a few tools and some initial setup time.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oplop&lt;/strong&gt; (Web-based) - &lt;a href="https://oplop.appspot.com/"&gt;https://oplop.appspot.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;  Oplop is actually &lt;a href="http://code.google.com/p/oplop/wiki/HowItWorks"&gt;a specification&lt;/a&gt; for generating passwords, but there is also a &lt;a href="http://oplop.appspot.com"&gt;web-based implementation&lt;/a&gt; you can actually use. You choose a master password and a "nickname," and it spits out a strong password. The beauty of Oplop is that given the same nickname and master password, it generates the same output every time. What this means is that you don't actually need to store anything at all; just pick a single master password and use an easily memorizable nickname for each of your accounts (like "amazon" for your Amazon account). That way, you only need to remember one master password, but you end up with separate passwords for each of your accounts online. You just need to use the generator each time you want to access your password (which, once you get used to it, is only a slight inconvenience that can be mitigated by using 1Password and a web browser plugin).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;1Password&lt;/strong&gt; (Mac, Windows, iOS, Android) - &lt;a href="http://agilebits.com/onepassword"&gt;http://agilebits.com/onepassword&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;  You may be familiar with storing passwords for your various web user accounts in your browser (like when it asks if you want to "Save this password" for later). Rather than storing your information in the browser, you can store it in 1Password, which serves as a central repository for your sensitive information (in this way, it's similar to the Keychain feature of Mac OS X, but better). Everything you enter is protected by a master password and strong encryption. You can even store 1Password's database file (the ".agilekeychain" file) on a web-accessible file system like Dropbox and access it via an HTML interface. I use 1Password in addition to Oplop for a few reasons: to have an offline-accessible "database" of my passwords and other info; to be able to log in using a keystroke via the included browser plugins; and, to sync my information to Dropbox/my iPhone for mobile access.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;These two tools allow me to satisfy my three requirements above. Both of them allow me to avoid memorizing any passwords except the master. When I'm on my own computer, 1Password's browser plugins allow me to fill out login forms with a single keystroke. When I'm on someone else's computer, I can look up my password on my iPhone or use Oplop to retrieve it.&lt;/p&gt;
-
-&lt;p&gt;This isn't necessarily the simplest system to set up--after all, it requires you to change all your current account passwords and your behavior. But I can guarantee that if you do both, you'll be protecting yourself better than most other internet users.&lt;/p&gt;
 </content>
   </entry>
 </feed>

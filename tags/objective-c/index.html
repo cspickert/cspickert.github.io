@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="nanoc 3.1.7" name="generator" />
+    <link href="/media/css/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <title>Cameron Spickert - Tagged: objective-c</title>
+    <script type="text/javascript">
+      //<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-9107543-2']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div id="site">
+      <div id="sidebar">
+        <header>
+          <h1><a href="/">Cameron Spickert</a></h1>
+        </header>
+        <section id="about">
+          <p><strong>I'm a software engineer at <a href="http://aviary.com">Aviary</a> in New York City.</strong></p>
+          
+          <p>You can find me on <a href="http://facebook.com/cspickert">Facebook</a>, <a href="https://twitter.com/#!/cameronspickert">Twitter</a>, <a href="http://www.linkedin.com/in/cameronspickert">LinkedIn</a> and <a href="https://github.com/cspicker">GitHub</a>.</p>
+          
+          <p>I built this site using <a href="http://nanoc.stoneship.org">nanoc</a>, <a href="http://haml-lang.com">haml</a>, <a href="http://sass-lang.com">sass</a> and <a href="http://daringfireball.net/projects/markdown/">markdown</a> (<a href="https://github.com/cspicker/cspicker.github.com/tree/source">source</a>).</p>
+        </section>
+        <footer>
+          <p>© 2011 Cameron Spickert.</p>
+        </footer>
+      </div>
+      <div id="content">
+        <article class="post">
+          <header>
+            <h2>
+              <a href="/2011/08/30/uiimage-from-uiview/">Easily create a UIImage from a UIView</a>
+            </h2>
+            Posted on
+            <time datetime="2011-08-30" pubdate="pubdate">Tuesday, Aug 30, 2011</time>
+             in <a href="/tags/objective-c/" rel="tag">objective-c</a>
+          </header>
+          <section class="content">
+            
+            <p>One of my projects at Aviary necessitated generating a static UIImage from a UIView. Fortunately, Quartz makes it really simple to do this. Here's a quick category on UIView showing how it can be done.</p>
+            
+            <p>To explain: -createImageFromRect: method generates an image by rendering the portion of the view bounded by "frame" in an image context. Note that CALayer's -renderInContext: method renders the entire layer tree, creating a flat image from the view hierarchy.</p>
+            
+            <br>
+            
+            
+            <script src="https://gist.github.com/1181935.js?file=gistfile1.m"></script>
+          </section>
+          <footer>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
