@@ -7,7 +7,7 @@ preprocess do
     all_tags = items.map { |i| i[:tags] }.flatten.compact.uniq
     all_tags.each do |tag|
       tag_index = Nanoc3::Item.new("", { :title => "Tagged: #{tag}", :tag => tag }, "/tags/#{tag}")
-      tag_index.site = site
+      # tag_index.site = site
       site.items << tag_index
     end
   end

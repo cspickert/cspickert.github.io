@@ -1,6 +1,7 @@
 include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
 include Nanoc3::Helpers::Rendering
+include Nanoc3::Helpers::LinkTo
 
 module Nanoc3::Helpers::Rendering
   def link_for_tag(tag, base_url)
@@ -16,10 +17,6 @@ class Nanoc3::Item
     return $1 if content =~ /<h1[^>]*>(.*)<\/h1>/i
 
     return identifier.split('/').last
-  end
-  
-  def rel_url
-    url_for(self).gsub(%r{^#{Regexp.escape(site.config[:base_url])}}, "")
   end
 end
 
