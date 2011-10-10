@@ -1,6 +1,5 @@
 ---
-created_at: 2011-07-08
-kind: article
+layout: post
 title: "Reflecting on Year One in NYC"
 ---
 

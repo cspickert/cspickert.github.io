@@ -1,6 +1,5 @@
 ---
-created_at: 2011-05-31
-kind: article
+layout: post
 title: "Thompson LES"
 tags: [ 'places' ]
 type: place

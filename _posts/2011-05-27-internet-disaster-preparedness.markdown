@@ -1,8 +1,6 @@
 ---
-created_at: 2011-05-27
-kind: article
-title: "On Internet Disaster Preparedness"
-location: "Starbucks on 2nd ave"
+layout: post
+title: On Internet Disaster Preparedness
 ---
 
 Most people don't worry about keeping themselves safe online. However, like backing up your files, it's something that many only realize they need when it's too late.

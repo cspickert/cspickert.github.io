@@ -1,7 +1,6 @@
 ---
-created_at: 2011-05-28
-kind: article
-title: "My Password Management Setup"
+layout: post
+title: My Password Management Setup
 ---
 
 Since [my last post](/2011/05/27/internet-disaster-preparedness/) on identity theft/worst case scenarios regarding user accounts on the web was a bit technical/unclear, I figured I'd follow up with a better answer to the question: "so what should I do about it?" Since weak passwords and site-specific attacks are the biggest threat, I think the best way for me to answer that question is to walk through my current account management scheme.

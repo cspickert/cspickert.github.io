@@ -1,8 +1,8 @@
 ---
-created_at: 2011-05-29
-kind: article
+layout: post
 title: "New Ashiya"
-tags: [ 'places' ]
+tags:
+- places
 type: place
 place:
     name: "New Ashiya"

@@ -1,0 +1,143 @@
+---
+layout: nil
+---
+/*
+ * Cameron Spickert
+ * May 2011
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	
+	font: normal 13px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #222;
+	
+	a {
+		text-decoration: none;
+		color: #23c;
+	}
+	
+	li {
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+	
+	h1 {
+		font-size: 2.5em;
+		line-height: 1.1em;
+	}
+	
+	h2 {
+		font-size: 22px;
+		line-height: 24px;
+	}
+}
+
+#site {
+	width: 926px;
+	margin: 0 auto;
+}
+
+#sidebar {
+	position: fixed;
+	float: left;
+	width: 175px;
+	padding: 0 40px;
+	
+	footer {
+		color: #888;
+	}
+}
+
+#content {
+	float: left;
+	width: 630px;
+	margin-left: 255px;
+	padding: 2.5em 20px 2em;
+}
+
+article.post {
+	clear: both;
+	margin-bottom: 2em;
+	
+	p {
+		margin: 0 0 1em;
+	}
+	
+	p:last-child {
+		margin: 0;
+	}
+	
+	header {
+		margin-bottom: 1em;
+		
+		h2 {
+			margin:0 0 0.2em;
+		}
+		time {
+			color: #666;
+		}
+	}
+	
+	.content {
+		float: left;
+		margin-bottom: 1em;
+	}
+	
+	footer {
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+}
+
+article.place {
+	h2 {
+		text-indent: 20px;
+		background: left no-repeat url('/media/icons/map-marker.png');
+	}
+	
+	.info {
+		position: relative;
+		width: 100%;
+		margin-bottom: 1em;
+		
+		.map {
+			float: left;
+			width: 150px;
+			height: 100px;
+			margin-right: 1em;
+			border-radius: 3px;
+		}
+		
+		.details {
+			position: absolute;
+			bottom: -4px;
+			left: 162px;
+		}
+		
+		.name, .address {
+			width: 100%;
+			display: block;
+			float: left;
+			clear: right;
+		}
+		
+		.name {
+			font-weight: bold;
+		}
+		
+		.address {
+			font-size: 0.9em;
+			color: #555;
+		}
+	}
+}
+
+#disqus_thread {
+	border-radius: 3px;
+	border: dotted 1px #aaa;
+	padding: 0.25em 2em;
+}

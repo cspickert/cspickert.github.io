@@ -1,6 +1,5 @@
 ---
-created_at: 2011-08-28
-kind: article
+layout: post
 title: "Aviary HQ"
 tags: [ 'places' ]
 type: place
