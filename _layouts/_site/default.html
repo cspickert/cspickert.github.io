@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
   <title>{{ page.title }}</title>
 </head>
 <body>
@@ -10,7 +11,8 @@
       <header>
         <h1><a href="/">Cameron Spickert</a></h1>
         <section id="about">
-          {{{% include about.markdown %} | markdown }}
+          {% capture about %}{% include about.markdown %}{% endcapture %}
+          {{ about | markdownify }}
         </section>
       </header>
     </div>

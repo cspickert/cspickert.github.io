@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: place
 title: "New Ashiya"
 tags:
 - places
-type: place
 place:
     name: "New Ashiya"
     address: |
