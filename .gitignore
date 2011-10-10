@@ -42,3 +42,4 @@ Backup[ ]of[ ]*.numbers/
 tmp/
 output/
 .sass-cache/
+_site/
