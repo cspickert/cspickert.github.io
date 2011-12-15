@@ -1,44 +1,22 @@
-# Cameron Spickert 
-# 10/28/2010
-# Adapted from http://github.com/tbarbe/Xcode-Git-User-Script
+_site
+_site/
 
-# Ignore auto-generated files
-# Common/Model/LampPost-Model.h
-
-# Mac OS X Finder and whatnot
 .DS_Store
+*.swp
+*~.nib
 
-# XCode (and ancestors) per-user config (very noisy, and not relevant)
-*.mode1
-*.mode1v3
-*.mode2v3
+build/
+output/
+
+*.pbxuser
 *.perspective
 *.perspectivev3
-*.pbxuser
-*.xcworkspace
-xcuserdata/
+*.pbxproj.mergesave
 
-# Generated files
-VersionX-revision.h
+xcuserdata
+*.xcuserdatad
+*.xcuserstate
 
-# build products
-build/
-*.[oa]
-
-# Other source repository archive directories (protects when importing)
-.hg
-.svn
-CVS
-
-# automatic backup files
-*~.nib
-*.swp
-*~
-*(Autosaved).rtfd/
-Backup[ ]of[ ]*.pages/
-Backup[ ]of[ ]*.key/
-Backup[ ]of[ ]*.numbers/
-
-tmp/
-output/
-.sass-cache/
+AviarySDK.xcodeproj/xcuserdata/*
+AviarySDK.xcodeproj/project.xcworkspace/xcuserdata/*
+AviarySDK.xcodeproj/project.xcworkspace/xcuserdata/*/*
