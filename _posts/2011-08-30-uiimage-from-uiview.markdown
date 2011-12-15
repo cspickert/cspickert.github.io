@@ -8,4 +8,4 @@ One of my projects at Aviary necessitated generating a static UIImage from a UIV
 
 To explain: `-createImageFromRect:` method generates an image by rendering the portion of the view bounded by "frame" in an image context. Note that CALayer's `-renderInContext:`	 method renders the entire layer tree, creating a flat image from the view hierarchy.
 
-<a href="https://gist.github.com/1181935">Check out the Gist here</a>.
+[Check out the Gist here](https://gist.github.com/1181935).
