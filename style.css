@@ -1,0 +1,100 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: "Lucida Grande";
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+a {
+	text-decoration: none;
+	color: #25567B;
+}
+
+a:hover {
+	color: #3F92D2;
+}
+
+blockquote {
+	padding: 0.5em 1em;
+	color: #666;
+	border-left: 4px solid #ccc;
+}
+
+#header {
+	width: 100%;
+	padding: 2em 0;
+	background-color: #033E6B;
+}
+
+	#header, #header a {
+		color: #fff;
+	}
+	
+	#header a:hover {
+		color: #fff;
+	}
+
+	#header h1 {
+		margin: 0 0 1em;
+		padding: 0;
+		font-size: 2em;
+		color: #fff;
+	}
+	
+	#header p {
+		margin-bottom: 0;
+	}
+	
+	#header p a {
+		color: #98D5FB;
+	}
+
+#masthead, #posts, #footer {
+	padding: 0 20px;
+	margin: 0 auto;
+	width: 640px;
+}
+
+.post {
+	margin: 3em 0 5em 0;
+}
+
+	.post h2 {
+		padding: 0;
+		margin: 0;
+	}
+	
+	.post .meta {
+		margin-bottom: 1.2em;
+	}
+
+		.post .meta time {
+			display: block;
+			margin-top: 0.5em;
+			color: #666;
+		}
+		
+	.post img {
+		max-width: 100%;
+	}
+	
+#footer {
+	margin-bottom: 2em;
+	color: #666;
+}
+
+/* 480-pixel layout for smaller screens */
+@media (max-width: 680px) {
+	#masthead, #posts, #footer { width: 480px; }
+}
+
+/* 300-pixel layout for iPhone-sized screens */
+@media (max-width: 520px) {
+	#masthead, #posts, #footer { width: 300px; }
+	    
+    html, body {
+        font-size: 12px;
+    }
+}
