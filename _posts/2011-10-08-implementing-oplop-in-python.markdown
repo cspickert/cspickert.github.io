@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Implementing Oplop in Python"
-tags: [ 'code', 'python' ]
 ---
 
 I've been using [Oplop](http://oplop.appspot.com/) for a while now. It's a great alternative to database-style password management programs like [1Password](http://www.agilebits.com/onepassword), providing the same level of security without compromising portability. While 1Password lets you take your passwords with you via an encrypted file and mobile, web and desktop apps, Oplop makes it so you don't have to take anything with you at all!

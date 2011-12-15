@@ -1,13 +1,6 @@
 ---
 layout: post
 title: "New Ashiya"
-tags: [ 'places' ]
-type: place
-place:
-    name: "New Ashiya"
-    address: |
-        167 1st Ave
-        New York, NY 10003
 ---
 
 _This is the first of what will hopefully be an ongoing series about places and businesses I've visited._
