@@ -5,7 +5,7 @@ title: "Using multiple Dropbox accounts in Mac OS X"
 
 This post [has been written before](http://forums.dropbox.com/topic.php?id=3166), but it's such a useful hack that I figured I'd share it here for those who haven't seen it. It's particularly useful for people who want to use separate "home" and "work" Dropbox accounts.
 
-## Running two instances of Dropbox.app
+### Running two instances of Dropbox.app
 
 The trick is to get Mac OS X to run multiple instances of Dropbox.app at the same time. As far as I'm aware, there's no way to do this through the Finder (for any application). Fortunately, it's easy to do in two Terminal commands:
 
@@ -18,7 +18,7 @@ The first line simply creates a new hidden folder in your home folder, if it doe
 
 After you run those lines in Terminal for the first time, the new Dropbox instance will prompt you to set up your account. Once you go through the initial setup, running those commands will simply launch the second Dropbox instance and begin syncing your files.
 
-## Launch a second Dropbox instance automatically
+### Launch a second Dropbox instance automatically
 
 While it's not difficult to run these commands, it can get tedious after a few logins. Wouldn't it be nice if you could start your alternative Dropbox from Finder, or start it automatically when you log in? With Automator, you can do just that.
 
