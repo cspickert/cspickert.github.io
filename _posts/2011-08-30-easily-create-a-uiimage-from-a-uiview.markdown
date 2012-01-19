@@ -7,4 +7,38 @@ One of my projects at Aviary necessitated generating a static UIImage from a UIV
 
 To explain: `-createImageFromRect:` method generates an image by rendering the portion of the view bounded by "frame" in an image context. Note that CALayer's `-renderInContext:`	 method renders the entire layer tree, creating a flat image from the view hierarchy.
 
-[Check out the Gist here](https://gist.github.com/1181935).
+{% highlight objc %}
+@interface UIView (UIImageCreation)
+
+- (UIImage *)createImageFromRect:(CGRect)frame;
+- (UIImage *)createImage;
+
+@end
+
+@implementation UIView (UIImageCreation)
+
+- (UIImage *)createImageFromRect:(CGRect)frame
+{
+    UIGraphicsBeginImageContext(frame.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+
+    CGPoint origin = [self bounds].origin;
+    CGPoint offset = frame.origin;
+
+    CGContextTranslateCTM(context, origin.x - offset.x, origin.y - offset.y);
+
+    [[self layer] renderInContext:context];
+
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return image;
+}
+
+- (UIImage *)createImage
+{
+    return [self createImageFromRect:[self bounds]];
+}
+
+@end
+{% endhighlight %}
