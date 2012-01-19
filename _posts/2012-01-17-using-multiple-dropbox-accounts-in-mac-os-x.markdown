@@ -9,8 +9,10 @@ This post [has been written before](http://forums.dropbox.com/topic.php?id=3166)
 
 The trick is to get Mac OS X to run multiple instances of Dropbox.app at the same time. As far as I'm aware, there's no way to do this through the Finder (for any application). Fortunately, it's easy to do in two Terminal commands:
 
-	mkdir -p "$HOME/.dropbox-alt"
-	HOME="$HOME/.dropbox-alt" open -n -a Dropbox.app
+{% highlight bash linenos %}
+mkdir -p "$HOME/.dropbox-alt"
+HOME="$HOME/.dropbox-alt" open -n -a Dropbox.app
+{% endhighlight %}
 	
 (You can replace `.dropbox-alt` with whatever you want).
 
