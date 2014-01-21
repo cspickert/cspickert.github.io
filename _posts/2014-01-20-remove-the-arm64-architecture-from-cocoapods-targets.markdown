@@ -14,10 +14,12 @@ Fortunately, there's a quick and easy automated fix. Just add the following to t
 post_install do |installer|
   installer.project.targets.each do |target|
     target.build_configurations.each do |configuration|
-      target.build_settings(configuration.name).delete 'ARCHS'
+      target.build_settings(configuration.name)['ARCHS'] = 'armv7 armv7s'
     end
   end
 end
 {% endhighlight %}
 
 To test, target the “iPhone Retina (4-inch 64-bit)” simulator and build.
+
+**Update:** The latest Xcode 5.1 beta redefined `ARCHS_STANDARD` to include `arm64`. I've updated the code above with a fix.
