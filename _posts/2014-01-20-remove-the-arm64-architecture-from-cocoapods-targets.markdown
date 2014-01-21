@@ -14,7 +14,7 @@ Fortunately, there's a quick and easy automated fix. Just add the following to t
 post_install do |installer|
   installer.project.targets.each do |target|
     target.build_configurations.each do |configuration|
-      target.build_settings(configuration.name)['ARCHS'] = 'armv7 armv7s'
+      target.build_settings(configuration.name)['ARCHS'] = '$(ARCHS_STANDARD_32_BIT)'
     end
   end
 end
