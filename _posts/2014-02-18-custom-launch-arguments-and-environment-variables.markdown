@@ -3,7 +3,7 @@ layout: post
 title: "Custom launch arguments and environment variables"
 ---
 
-While developing iOS apps, it can sometimes be useful to temporarily redefine the default behavior your app for convenience or debugging purposes. For example, maybe you're working on a first-run feature—a tutorial, for example—that users should only see the first time they open your app. In production, you might want this feature to appear based on a flag stored in [NSUserDefaults](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/nsuserdefaults_Class/Reference/Reference.html):
+While developing iOS apps, it can sometimes be useful to temporarily redefine the default behavior of your app for convenience or debugging purposes. For example, maybe you're working on a first-run feature—a tutorial, for example—that users should only see the first time they open your app. In production, you might want this feature to appear based on a flag stored in [NSUserDefaults](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/nsuserdefaults_Class/Reference/Reference.html):
 
 {% highlight objc %}
 BOOL tutorialShown = [[NSUserDefaults standardUserDefaults] boolForKey:@"tutorialShown"];
