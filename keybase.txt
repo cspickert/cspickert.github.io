@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/cameronspickert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://cameronspickert.com
+  * I am cameronspickert (https://keybase.io/cameronspickert) on keybase.
+  * I have a public key with fingerprint 4284 AF88 B89B 5D4A 0AE2  E76F 13E4 E728 4469 3DCC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "4284af88b89b5d4a0ae2e76f13e4e72844693dcc",
+            "host": "keybase.io",
+            "key_id": "13E4E72844693DCC",
+            "uid": "4436525194bbc416af275549e3325500",
+            "username": "cameronspickert"
+        },
+        "merkle_root": {
+            "ctime": 1414986586,
+            "hash": "dad7543b8c7e84f1a0cfbfa2d83e6ed946b30853fe017738f778d27decfdb643b078718dcafd418359d5c23ab59bca660aecbeb88a9b262de50068d14a1b5cd6",
+            "seqno": 91078
+        },
+        "service": {
+            "hostname": "cameronspickert.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1414986723,
+    "expire_in": 157680000,
+    "prev": "9744060c069e5e2dfb4789a6910d93c72f6fc82630570988e1dde93c0e0466e3",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtUntQFVUcvg/FiQEVr4A5FbAYPQZhn2d37wBDgUQ4ypQEFgywj7OwAncvey8v
+EWjuiIECIZBXRglHCNGKa46Fo/aHEIVSQeEYUFkRVxBtoheNOOO0y+iUM51/9uz5
+fd/3+77fOc3+ZoPJaJmZfTpRjv3cOHKTN6Sl3/25EuEVsQKxViJCoQxtTn1n44og
+YkUKYAXPOWCUrITaFBFG7XKE3sdEIqVQdciKTUOhUXQUjlRF6nCdLMm2PKjaVVnX
+QkicITmJYXiG5SmR5FAO4pAGEkZAEtJakQQsIQqCJpmvOJwPdUWWNXNkUTvFiC3k
+lgf4xIQErVayXCBJAlA4hbEkzwskBjgJpymKZCFB4BSFojrQAdX7kQTtoyo2h10W
+CqDq1G1rBwWFMEdVlOXsglPWkRiJkSwDKAZoxjhHvsYVOZGmSIJnBBoypIRxqCDx
+EoeLDAEBFFkS8ATKUIQEUYymCUaiaUbEaREKksgDjYjSDI0xosBJIokxBMWKlIAT
+HE+xvMABoI1G4CHPMBzL4wAXoeYeMCJGchhPCSLQkjhgsU1BrCymSVXpv2qpLEDd
+tj68/88YJShFGtWuKk5FUAo1QL7TabciVecjEWeFXWeUQT7nvlYOL9tE7Qb/e8WY
+1urhsdA4EYnAcruswhxZR1A0YFBt6X1gqSbJ0iSJAlRAAQspiIsST9IMywHNusgS
+Ao1LQBIYHBAoRaMsw0BMFKFWQCFKAgCJf8NqnZxcnibpkPNsnLNEhUhVvemxFQaj
+yeCz0qS/YYPvI2sfPOyJ7rWGNxuGkvker/WXQz/cOevXtOp493BvfNU6LOK1hLbf
+fYP8Hs+/LCBxH612FI8crzpRYS1yXUKSrXXjC8h0p2UbmDa+54w+0J1mzO5a3wfd
+W/d1FmZdOy+Z/I82XfBkfZcR2/RqyI/baoZnakYLwp70xk81wguDeXPHet8+1uCV
+518IsK45fLNmgW68FXEi4GpS1qPlrpnbaeHmgbHkW77BFrfXE+HKupe8aWrInNli
+dP1RswjspsMvc5MBAxZkz6n63eaGbFa43Ny+4ZuJr1t8Nva96Hdv8Iq3ZtQz138y
+9UDJ9fZgy5d3x9JjpqZKUub3fX+69NyZcc/HqHUgY69PxNykwXwtfrI2ZsPFAdRi
+I3a5/TsKVwVFVO7Jbk8tKfduLa6Ibk5a+muelsFm9NnKnuo7PheNtUeHK0KGWoI3
+ti7A512J1UnTvnHh73Q+c8Pw3GzMK+unPghMCBz4MOiTv13v+7vF7QfDOjzS7sBx
+w6+ti2fBQFpUpSF6cHtmXci39Y31V1pN+W3UueCV3WF7B7E+pG+/MTy1aIc78y0y
+pbzX3dO5s6bspYSD77rL+rs8cijtWvPU2FJH3I5NckaGgH6mXj2yMzfI5/XcdddX
+fHpj8fRof8qlJ/y7/lw6kzvre6itNv2N1RQzGFQXO3PqyE/Zt0c2f/GbZ+Kkt7qp
+OzQLL0j9Ktr8Dw==
+=6SlA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cameronspickert
+
+==================================================================
