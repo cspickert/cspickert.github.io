@@ -1,1 +1,8 @@
-pygments: true
+title: Cameron Spickert
+email: cameron@cameronspickert.com
+url: "http://cameronspickert.com"
+twitter_username: cameronspickert
+github_username: cspickert
+
+# Build settings
+markdown: kramdown
