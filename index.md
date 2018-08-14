@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Hi, I'm Cameron Spickert.
+# Hi, I'm Cameron.
 
 I'm a software engineer living in New York City. Currently, I'm the technical lead on the [Google Play Books][p] iOS team. Previously, I worked at [Oyster][o] and [Aviary][a]. Professionally, I'm passionate about building usable and maintainable software using Swift and Objective-C. In my free time—that is, when I'm not indulging in movies or video games—I enjoy exploring the city, and I occasionally [mentor][c] aspiring software engineers.
 
