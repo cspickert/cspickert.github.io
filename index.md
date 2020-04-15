@@ -3,7 +3,7 @@ layout: default
 ---
 # Hi, I'm Cameron.
 
-I'm a software engineer based in New York City. Currently, I'm working on building a new payroll platform at [Check][k]. In past lives, I worked at Google[p], [Oyster][o] and [Aviary][a]. I'm passionate about building usable and maintainable software, and I particularly enjoy working with Python, TypeScript, and Swift. In my free time I enjoy watching movies and TV, cooking, and biking around the city. I also [mentor][c] aspiring software engineers.
+I'm a software engineer based in New York City. Currently, I'm working on building a new payroll platform at [Check][k]. In past lives, I worked at [Google][p], [Oyster][o] and [Aviary][a]. I'm passionate about building usable and maintainable software, and I particularly enjoy working with Python, TypeScript, and Swift. In my free time I enjoy watching movies and TV, cooking, and biking around the city. I also [mentor][c] aspiring software engineers.
 
 Feel free to get in touch at [{{ site.email }}](mailto:{{ site.email }}). You can also find me on [Twitter][t] and [GitHub][g].
 
