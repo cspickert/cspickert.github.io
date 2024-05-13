@@ -1,6 +1,7 @@
 title: Cameron Spickert
 email: cameron@cameronspickert.com
 url: "http://cameronspickert.com"
+repository: cspickert/cspickert.github.io
 
 # Build settings
 markdown: kramdown
